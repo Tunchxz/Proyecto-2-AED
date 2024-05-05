@@ -39,6 +39,38 @@ public class DBManager {
         driver.close();
     }
 
+    public void loadProductsFromCSV(String csvFilePath) {
+        try (Session session = driver.session();
+             BufferedReader br = new BufferedReader(new FileReader(csvFilePath))) {
+            String line;
+            boolean isHeader = true;
+            while ((line = br.readLine()) != null) {
+                if (isHeader) {
+                    isHeader = false;
+                    continue; // Saltar Encabezado
+                }
+                String[] values = line.split(",");
+                if (values.length == 7) {
+                    String id = values[0];
+                    String name = values[1];
+                    String price = values[2];
+                    String category1 = values[3];
+                    String category2 = values[4];
+                    String brand = values[5];
+                    String image = values[6] + id + ".jpg";
+
+                    session.run("CREATE (p:Producto {id: $id, nombre: $name, precio: $price, " +
+                                "categoria1: $category1, categoria2: $category2, marca: $brand, imagen: $image})",
+                                Map.of("id", id, "name", name, "price", price, "category1", category1, 
+                                       "category2", category2, "brand", brand, "image", image));
+                }
+            }
+            System.out.println("Products loaded from CSV successfully.");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void main(String... args) {
         String dbUri = "neo4j://localhost";
         String dbUser = "neo4j";
