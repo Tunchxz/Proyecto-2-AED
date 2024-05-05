@@ -71,6 +71,22 @@ public class DBManager {
         }
     }
 
+    public boolean loginUser(String username, String password) {
+        try (Session session = driver.session()) {
+            Result result = session.run("MATCH (u:User {username: $username, password: $password}) RETURN u",
+                    Map.of("username", username, "password", password));
+            if (result.hasNext()) {
+                loggedInUser = username; // Guardar el nombre de usuario como identificador de sesión
+                System.out.println("Usuario logueado: " + loggedInUser);
+                return true;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+
+
     public static void main(String... args) {
         String dbUri = "neo4j://localhost";
         String dbUser = "neo4j";
@@ -80,8 +96,11 @@ public class DBManager {
         DBManager dbManager = DBManager.getInstance(dbUri, dbUser, dbPassword);
 
         dbManager.loadProductsFromCSV("Productos.csv");
+
+        boolean loginSuccess = dbManager.loginUser("newuser", "password123");
+        System.out.println("Login successful: " + loginSuccess);
         
         // Agregar un shutdown hook para cerrar el DBManager cuando la JVM se apague
         Runtime.getRuntime().addShutdownHook(new Thread(dbManager::close));
-    }
+    } 
 }
