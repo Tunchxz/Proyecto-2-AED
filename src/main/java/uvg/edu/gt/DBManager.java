@@ -79,6 +79,8 @@ public class DBManager {
         // Crear una instancia de DBManager usando el método estático getInstance
         DBManager dbManager = DBManager.getInstance(dbUri, dbUser, dbPassword);
 
+        dbManager.loadProductsFromCSV("Productos.csv");
+        
         // Agregar un shutdown hook para cerrar el DBManager cuando la JVM se apague
         Runtime.getRuntime().addShutdownHook(new Thread(dbManager::close));
     }

@@ -1,0 +1,506 @@
+IDProducto,Nombre,Precio,Categoria1,Categoria2,Marca,Imagen
+LAP78901234,IDEAPAD 1 14IGL7 INTEL N4020 4GB RAM 128GB SSD 14P W11 S CLOUD GREY,1599,Computadoras,Laptops,LENOVO,src\\main\\resources\\
+LAP56789012,VIVOBOOK GO L510MA-BB09-CB CELERON N4020 4GB RAM 128GB SSD 15.6P W11 STAR BLACK,1799,Computadoras,Laptops,ASUS,src\\main\\resources\\
+LAP34567890,IDEAPAD 1 15IJL7 PENTIUM N6000 1.1GHZ 4GB RAM 128GB SSD 15.6P W11 S ABYSS BLUE,1899,Computadoras,Laptops,LENOVO,src\\main\\resources\\
+LAP12345678,14-DQ5009LA I3-1215U 8GB RAM 256GB SSD 14P W11H SILVER,2999,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP90123456,V14 G4 ABP RYZEN 5 5500U 8GB RAM 256GB SSD 14P W11 PRO,3149,Computadoras,Laptops,LENOVO,src\\main\\resources\\
+LAP67890123,15-DY5131WM I3-1215U 8GB RAM 256GB SSD 15.6P W11 S SILVER,3049,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP45678901,15-EF2033DX ryzen 3 5300U 8GB RAM 256GB SSD 15.6P W11 SILVER,3099,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP23456789,INSPIRON 15 3000 i3-1215U 8GB RAM 256GB 15.6P W11 BLACK,3199,Computadoras,Laptops,DELL,src\\main\\resources\\
+LAP01234567,INSPIRON 15 3000 3520 I3-1215U 8GB RAM 256GB SSD 15.6P W11 PLATINUM SILVER,3099,Computadoras,Laptops,DELL,src\\main\\resources\\
+LAP89012345,IDEAPAD 15ITL05 i3-1115G4 8GB RAM 256GB SSD 15.6P  GREY,3169,Computadoras,Laptops,LENOVO,src\\main\\resources\\
+LAP67890125,14-DQ2528LA I3-1115G4 8GB RAM 256GB SSD 14P W11,3199,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP45678902,15-DY2792WM I3-1115G4 8GB RAM 256GB SSD 15.6P W11S SPRUCE BLUE,3169,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP23456788,15-EF2033DX ryzen 3 5300U 8GB RAM 256GB SSD 15.6P W11 SILVER,3299,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP01234567,YOGABOOK 6 13ABR8 RYZEN 7 7730U 16GB RAM 1TB 13.3P WUXGA W11 DARK TEAL LAPICERO,8499,Computadoras,Laptops,Lenovo,src\\main\\resources\\
+LAP89012346,LOQ 15IRH8 i7-13700H 16GB RAM 512GB SSD RTX 4050 6B 15.6P W11 STORM GREY,9799,Computadoras,Laptops,Lenovo,src\\main\\resources\\
+LAP67890124,VIVOBOOK CREATOR Q530VJ-I73050 i7-13620H 16GB RAM  512 SSD  RTX 3050 6GB 15.6P OLED W11 BLACK,8699,Computadoras,Laptops,ASUS,src\\main\\resources\\
+LAP45678903,ROG FLOW X13 GV302XA RYZEN 9 7940HS 16GB RAM 512GB SSD 13.4P TOUCH 120HZ W11 BLACK,9999,Computadoras,Laptops,ASUS,src\\main\\resources\\
+LAP23456787,NITROV 15 51-73R8 I7-13620H 16GB RAM 512GB SSD RTX 4050 6GB 15.6P W11 BLACK,10999,Computadoras,Laptops,ACER,src\\main\\resources\\
+LAP01234569,G5 530 -7527BLK-PUS I7-13650HX 8GB RAM 1TB SSD RTX 4050 6GB 15.6P FHD 120HZ W11 DARK SHAD,10199,Computadoras,Laptops,DELL,src\\main\\resources\\
+LAP89012347,BRAVO 15 C7VF-009 RYZEN 7 7735HS 16GB RAM 512SSD RTX 4060 8GB 15.6P W11 BLACK TEC ILUM,10799,Computadoras,Laptops,MSI,src\\main\\resources\\
+LAP67890126,G15 G5535-A643GRY-PUS RYZEN 7 7840HS 16GB RAM 512GB SSD RTX 4060 8GB 15.6P 165HZ W11 GRIS,11199,Computadoras,Laptops,DELL,src\\main\\resources\\
+LAP45678904,"LOQ 15IRH8 i7-13700H 16GB RAM 1TB SSD RTX 4060 8GB 15.6"" (1920x1080) 144Hz IPS W11 STORM",12499,Computadoras,Laptops,LENOVO,src\\main\\resources\\
+LAP23456786,G5520-7938GRE-PUS i7-12700H 16GB RAM 512SSD RTX 3060 6GB 15.6P W11,12699,Computadoras,Laptops,DELL,src\\main\\resources\\
+LAP01234560,VICTUS 16-S0015NR RYZEN 7 7840HS 16GB RAM 512GB SSD RTX 4060 8GB 16.1P QHD 240NZ W11 SILVE,11999,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP89012348,ZEPHYRUS GA402X RYZEN 9-7940HS 16GB RAM 512GB SSD RTX 4060 8GB 14P W11 MOONLIGHT WHITE,12199,Computadoras,Laptops,ASUS,src\\main\\resources\\
+LAP67890127,TUF FA507XV-MS94 RYZEN 9 7940HS 16GB RAM 1TB SSD RTX 4060 8GB 15.6P W11 MECHA GREY,13999,Computadoras,Laptops,ASUS,src\\main\\resources\\
+LAP45678905,G5 15 5530 I7-13650HX 16GB RAM 1TB SSD RTX 4060 8GB 15.6P W11 DARK SHADOW,14499,Computadoras,Laptops,DELL,src\\main\\resources\\
+LAP23456785,VIVOBOOK K6602V-ES94 i9-13900H 16GB RAM 1TB SSD RTX 4060 8GB 16P OLED W11 QUIET BLUE,13599,Computadoras,Laptops,ASUS,src\\main\\resources\\
+LAP01234561,TRITON PT14-51-7979 i7-13700H 16GB RAM 1TB SSD RTX 4070 8GB 14P 240HZ W10 SILVER TEC ILU,13999,Computadoras,Laptops,ACER,src\\main\\resources\\
+LAP89012349,G7630-9343GRY-PUS i9-13900HX 16GB RAM 1TB SSD RTX 4070 8GB 16P QHD+ 2560 x 1600 2K W11 HOME TEC ILUM,17499,Computadoras,Laptops,DELL,src\\main\\resources\\
+LAP67890128,ALIENWARE M16 R1 i9-13900HX 16GB RAM 1TB SSD RTX 4080 12GB 16PQHD (2560x1600) 240Hz W11,26749,Computadoras,Laptops,DELL,src\\main\\resources\\
+LAP45678906,"HP 15-DY2062LA INTEL CORE i3-1125G4 8GB RAM 256GB SSD15.6"" W 11",3099,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP23456784,IDEAPAD 1 14IAU7 i3-1215U 8GB RAM 256GB SSD 14PW11 S CLOUD GREY,3599,Computadoras,Laptops,LENOVO,src\\main\\resources\\
+LAP01234562,IDEAPAD SLIM 3 15IRU8 I3-1305U 8GB RAM 256GB SSD 15.6P W11,3799,Computadoras,Laptops,LENOVO,src\\main\\resources\\
+LAP89012340,14-DQ5014LA I5-1235U 8GB RAM 256GB SSD 14P W11H SILVER,3699,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP67890129,INSPIRIRON 15 3000 3520 I5-1235U 8GB RAM 256GB SSD 15.6P W11 CARBON BLACK,4149,Computadoras,Laptops,DELL,src\\main\\resources\\
+LAP45678907,15-EF2520LA RYZEN 5 5500U 8GB RAM 256GB SSD 15.6P W11,4099,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP23456783,15-FC0093DX RYZEN 5 7520U 16GB RAM 256GB SSD 15.6P W11 S SILVER,3999,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP01234563,IDEAPAD 1 15IAU7 I5-1235U 8GB RAM 512GB SSD 15.6P W11 WS GREY,4499,Computadoras,Laptops,LENOVO,src\\main\\resources\\
+LAP89012341,IDEAPAD 1 15IAU7 I5-1235U 8GB RAM 256GB SSD 15.6P W11 GREY,3999,Computadoras,Laptops,LENOVO,src\\main\\resources\\
+LAP67890120,VIVOBOOK F1502ZA-DS52i5-1240P 8GB RAM 512GB SSD 15.6P W11 BLUE TEC ILUM,4449,Computadoras,Laptops,ASUS,src\\main\\resources\\
+LAP45678908,15-EF2015NR RYZEN 5 5500U 16GB RAM 512GB SSD 15.6P W11 SILVER,4999,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP23456780,VIVOBOOK M1603QA-R712 RYZEN 7 5800HS 12GB RAM 512SSD W11 QUIET BLUE,4599,Computadoras,Laptops,ASUS,src\\main\\resources\\
+LAP01234565,ENVY 15-EY1077WM RYZEN 5 750U 12GB RAM 256GB SSD 15.6P TOUCH X360 W11,4849,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP89012342,YOGA 6 13ALC7 RYZEN 7 5700U 8GB RAM 512GB SSD 13.3P TOUCH W11 DARK TEAL,5999,Computadoras,Laptops,LENOVO,src\\main\\resources\\
+LAP67890121,VIVOBOOK F1502Z i7-1255U 16GB RAM 512GB SSD 15.6P TOUCH QUIET BLUE,5699,Computadoras,Laptops,ASUS,src\\main\\resources\\
+LAP45678909,YOGA 7 16ARP8 RYZEN 5 7535U 8GB RAM 512GB SSD 16P WUXGA TS W11 ARTIC GREY,6499,Computadoras,Laptops,LENOVO,src\\main\\resources\\
+LAP23456781,ZENBOOK Q420VA-EVO.I7512 i7-13700H 16GB RAM 512GB SSD 14.5P 2.8K 120HZ TOUCH W11 GRAY,8999,Computadoras,Laptops,ASUS,src\\main\\resources\\
+LAP01234564,VICTUS 16T-R000 i7-13700H 16GB RAM 512GB SSD RTX 3050 6GB 16.1P MICA SILVER TEC ILUMN,10999,Computadoras,Laptops,HP,src\\main\\resources\\
+LAP89012343,PREDATOR TRITON 300 SE i7-12700H 16GB RAM 512SSD RTX 3060 6GB 14P W11 GRAY,10199,Computadoras,Laptops,ACER,src\\main\\resources\\
+ESC87234561,MINI PC AK1PLUS ALDER LAKE N95 8GB RAM 256GB SSD W11 PRO,1999,Computadoras,Escritorio,KAMRUI,src\\main\\resources\\
+ESC43987652,MINI PC T8PLUS 12GB RAM 256GB SILVER WiFi BT4.2,1749,Computadoras,Escritorio,ACEMAGIC,src\\main\\resources\\
+ESC56781234,MINI PC AK2PLUS ALDER LAKE- N100 16GB RAM 512GB SSD W11 GRAY,1999,Computadoras,Escritorio,KAMRUI,src\\main\\resources\\
+ESC98456723,MINI PC AK1PLUS N95 16GB RAM 512GB SSD W11 BLACK,2499,Computadoras,Escritorio,KAMRUI,src\\main\\resources\\
+ESC12345678,MINI PC GK3PLUS NTEL CELERON N9516GB RAM 512GB SILVER,1999,Computadoras,Escritorio,KAMRUI,src\\main\\resources\\
+ESC76543219,MINI PC AM06PRO RYZEN 5 5500U 16GB RAM 512GB SSD W11 BLACK,3299,Computadoras,Escritorio,KAMRUI,src\\main\\resources\\
+ESC89012345,MINI PC RYZEN 7 5700U 16GB RAM 500GB W11,3349,Computadoras,Escritorio,TRIGEY,src\\main\\resources\\
+ESC45678901,ALL IN ONE 22-DD2026LA INTEL CELERON J4025 8GB RAM 256GB SSD 21.5P,3899,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC23456789,ALL IN ONE 21-B0002LA CELERON J4025 4GB RAM 1TB HDD 21P W10 BLK,3999,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC98765432,MINI PC i5 12450H 16GB RAM 512GB W11 PRO,3749,Computadoras,Escritorio,GMKTEC,src\\main\\resources\\
+ESC34567890,MINI PC i5-12450H 16GB RAM 512GB SSD W11 PRO,3749,Computadoras,Escritorio,GMKTEC,src\\main\\resources\\
+ESC65432109,ALL IN ONE 24-CB1010LA AIO I3-1215U 8GB RAM 512 SSD W11,5259,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC87654321,ALL IN ONE IDEACENTRE AIO 3 22ITL6 i3-1115G4 8GB RAM 256GB SSD 21.5P TOUCH W11 BLACK,4899,Computadoras,Escritorio,LENOVO,src\\main\\resources\\
+ESC54321098,ALL IN ONE 24-CB1021LA I5-1235U 8GB RAM 512GB SSD 23.8P W11H,5879,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC21098765,MINI PC SEI I7-12650H 32GB RAM 500GB WIFI 6 W11 HOME,4699,Computadoras,Escritorio,BEELINK,src\\main\\resources\\
+ESC67890123,PC VICTUS TG02-1000LA I5-13400 8GB RAM 512GB SSD W11H,5699,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC32109876,MINI PC AD08 i7-12650H 32GB RAM 512GB SSD WIFI 6 BT 5.2 W11,5199,Computadoras,Escritorio,KAMRUI,src\\main\\resources\\
+ESC78901234,ALL IN ONE 27-CR0004LA R7-7730U 8GB RAM 512 SSD W11,8339,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC45678902,ALL IN ONE 27-CA0011LA RYZEN 7 5700U 16GB RAM 512GB SSD + 1TB HDD 27P W11H,11999,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC54321099,PC VICTUS TG02-1000 i7-13700 8GB RAM 256GB SSD RTX 4060 8 GB W11 TEC Y MOUSE,12199,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC98765433,PC VICTUS TG02-1000 i7-13700 32GB RAM 1tB SSD RTX 4060 8 GB W11 TEC Y MOUSE,11299,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC12345679,PC ROG STRIX G16CH i7-13700F 32GB RAM 1TB SSD RTX 4060 8GB W11 TEC Y MOUSE,12999,Computadoras,Escritorio,ASUS,src\\main\\resources\\
+ESC89012346,PC BUILD I5-12400F 16GB RAM DDR4 3200MHz 500GB SSD TARJETA DE VIDEO DUALRTX4060OC 8GB GDDR6 CAS,13499,Computadoras,Escritorio,INTEL,src\\main\\resources\\
+ESC34567891,PC LEGION T7 i7-13700KF 32GB RAM 1TB SSD RTX 4070 Ti 12GB W11 TEC- MOUSE,18699,Computadoras,Escritorio,LENOVO,src\\main\\resources\\
+ESC67890124,PC LEGION T7 34IRZ8 i9-13900KF 32GB DDR5 RAM RTX 4080 16GB 1TB SSD W11 TEC - MOUSE,24199,Computadoras,Escritorio,LENOVO,src\\main\\resources\\
+ESC21098766,"iMac con procesador Core i5 RAM de 8GB Almacenamiento de 256GB pantalla de 21.5""",8998,Computadoras,Escritorio,APPLE,src\\main\\resources\\
+ESC87654322,"iMac MQR93E/A 23.5"" Procesador M3 8GB RAM almacenamiento 256GB SSD",12999,Computadoras,Escritorio,APPLE,src\\main\\resources\\
+ESC54321090,"iMac con pantalla de 24"" procesador chip M3 memoria RAM de 8GB 256GB SSD verde.",11998,Computadoras,Escritorio,APPLE,src\\main\\resources\\
+ESC45678903,"iMac con pantalla de 24"" procesador chip M3 memoria RAM de 8GB 256GB SSD rosado.",11998,Computadoras,Escritorio,APPLE,src\\main\\resources\\
+ESC23456780,"All in One HP procesador Intel Core i5 memoria RAM 8GB Almacenamiento 512GB SSD pantalla 23.8"" W11",5999,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC56781235,HP All-in-One 24-cr0000la AMD Ryzen 3 7320U 8 GB RAM 512 GB SSD,5696,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC89012347,"All in One HP procesador Intel Celeron memoria RAM 8GB Almacenamiento 256GB SSD pantalla 22"" W1",3999,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC45678904,HP Pavilion All-in-One 27-ca0005la AMD Ryzen 7 5700U 16GB RAM 512GB SDD,11999,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC12345670,"Computadora HP All In One Core i3 Memoria RAM 8GB 256GB SSD pantalla de 21.5"" Windows 10",4498,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC87654323,"All in One Celeron RAM 8GB 256GB SSD Pantalla de 21.5"" Windows 11",4199,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC98765434,HP All-in-One 24-cr0008la AMD Ryzen 5 7520U 8GB RAM 512GB SSD,7499,Computadoras,Escritorio,HP,src\\main\\resources\\
+ESC21098767,OPTIPLEX 7010 SFF PROCESADOR CORE i5 13500 2.5GHZ 8GB DE RAM 256GB NVMe M.2 DE ALMACENAMIENTO SISTEMA WINDOWS 11 PROFESSIONAL COLOR NEGRO,6599,Computadoras,Escritorio,DELL,src\\main\\resources\\
+ESC54321091,OPTIPLEX 7010 i5 13500T 1.6GHZ 8GB 512GB NVMe M.2 W11P MFF,6790,Computadoras,Escritorio,DELL,src\\main\\resources\\
+ESC34567892,OPTIPLEX 7010 i5 13500 2.5GHZ 8GB 512GB NVMe M.2 W11P SFF,7210,Computadoras,Escritorio,DELL,src\\main\\resources\\
+ESC67890125,Legion T5 26Amr5 Procesador Ryzen 5 A 3.9Ghz Memoria RAM De 16G De Tipo DDR4 Almacenamiento De 512G SSD M.2 Tarjeta De Video 3060 Capacidad 8Gb Windows 11 Home,7699,Computadoras,Escritorio,LENOVO,src\\main\\resources\\
+ESC87654324,OPTIPLEX 7010 MFF PROCESADOR INTEL CORE i7 13700T 1.4GHZ 16GB DE RAM DDR4 512GB NVMe DE ALMACENAMIENTO SISTEMA WINDOWS 11 PROFESSIONAL COLOR NEGRO,8715,Computadoras,Escritorio,DELL,src\\main\\resources\\
+ESC23456781,REFURBISHED PC MSI AEGIS R13NUC7-475US PROCESADOR i7 13700F A 2.1 16GB DE RAM 1T DE ALMACENAMIENTO SSD TARJETA GRAFICA RTX 4060 DE 8GB WINDOWS 11 HOME INGLES,9059,Computadoras,Escritorio,MSI,src\\main\\resources\\
+ESC56781236,OPTIPLEX 7010 i7 13700 2.2GHZ 16GB 512GB NVMe M.2 W11P SFF,10301,Computadoras,Escritorio,DELL,src\\main\\resources\\
+ESC89012348,REFURBISHED PC MSI AEGIS 13NUE-452US PROCESADOR i7 13700F A 2.1 32G DE RAM 1T DE ALMACENAMIENTO SSD TARJETA GRAFICA RTX 4070 DE 12GB WINDOWS 11 HOME,13656,Computadoras,Escritorio,MSI,src\\main\\resources\\
+ESC45678905,ASUS ROG G13CH (2023) Gaming Desktop PC Intel Core i5-13400F NVIDIA GeForce RTX 3050 1TB NVMe PCIe SSD 8GB DDR4 RAM Windows 11 G13CH-PB555 Black,25000,Computadoras,Escritorio,ASUS,src\\main\\resources\\
+ESC54321092,PC de escritorio para juegos ASUS ROG G16CH (2024) Intel® Core™ i7-14700F NVIDIA® GeForce RTX™ 4060Ti dual SSD PCIe® Gen4 de 1 TB 32 GB de RAM DDR5 Windows 11 G16CHR-AS766Ti,40000,Computadoras,Escritorio,ASUS,src\\main\\resources\\
+ESC98765435,ASUS ROG Strix G15DS Gaming Desktop AMD Ryzen 7 7700X Processor GeForce RTX 4070 Dual 16GB DDR5 RAM 1TB PCIe SSD Windows 11 Home G15DS-DH774,26000,Computadoras,Escritorio,ASUS,src\\main\\resources\\
+ESC12345671,MSI Aegis ZS Gaming Desktop AMD Ryzen 7 7700 GeForce RTX 4060 16GB RAM 1TB SSD RGB Fan Cooling Wi-Fi 6E Keyboard & Mouse Included DIY Friendly Windows 11 Home-Adv: 7NUC-607US,14999,Computadoras,Escritorio,MSI,src\\main\\resources\\
+ESC87654325,Lenovo IdeaCentre Gaming 5i - 2022 - Gaming Desktop - NVIDIA GeForce RTX 3050 - Intel i5 12400-8GB RAM - 512GB SSD - Win 11 - Black - Mouse & Keyboard - Free 3-Month Xbox GamePass,8999,Computadoras,Escritorio,LENOVO,src\\main\\resources\\
+ESC34567890,Corsair ONE i500 Gaming PC - Liquid Cooled Intel® Core™ i9 14900K CPU - Liquid Cooled NVIDIA® GeForce RTX™ 4080 Super GPU - 32GB Vengeance DDR5 Memory - 2TB M.2 SSD - Wood Dark,52999,Computadoras,Escritorio,CORSAIR,src\\main\\resources\\
+CAS98765432,CASE GAMING HAF 700 EVO RGB H700E-IGNN-S00,4999,Componentes,Cases,COOLER MASTER,src\\main\\resources\\
+CAS12345678,CASE GAMER GR 701 ROG HYPERION 90DC00F0-B38000,4959,Componentes,Cases,ASUS,src\\main\\resources\\
+CAS87654321,CASE HAF 700 THE BERSERKER H700-IGNN-S00,2999,Componentes,Cases,COOLER MASTER,src\\main\\resources\\
+CAS23456789,CASE GR101 GAMING,1699,Componentes,Cases,ASUS,src\\main\\resources\\
+CAS98765433,CASE GAMING H510I CRFT10 EDICION ESPECIAL ALL MIGHT,2899,Componentes,Cases,NZXT,src\\main\\resources\\
+CAS34567890,CASE GRAN JAGUAR - NEGRO,1999,Componentes,Cases,PILAS,src\\main\\resources\\
+CAS45678901,CASE MID TOWER C301GW GB C301GW WHITE,1399,Componentes,Cases,GIGABYTE,src\\main\\resources\\
+CAS56789012,CASE H510i - NEGRO CON ROJO,1299,Componentes,Cases,NZXT,src\\main\\resources\\
+CAS65432109,CASE H510i - NEGRO,1299,Componentes,Cases,NZXT,src\\main\\resources\\
+CAS21098765,CASEH210I CA-H210BR RED,1199,Componentes,Cases,NZXT,src\\main\\resources\\
+CAS54321098,CASE MINI ITX H210i - NEGRO,1199,Componentes,Cases,NZXT,src\\main\\resources\\
+CAS43210987,CASE MINI ITX H210i - BLANCO,1199,Componentes,Cases,NZXT,src\\main\\resources\\
+CAS78901234,CASE TUF GAMING GT301,1199,Componentes,Cases,ASUS,src\\main\\resources\\
+CAS09876543,CASE MASTERBOX TD500 MESH V2 WHITE TD500V2-WGNN-S00,1099,Componentes,Cases,COOLER MASTER,src\\main\\resources\\
+CAS65432100,CASE SILENCIO S600 W/ TG SIDE PANEL MCS-S600-KG5N-S00,1049,Componentes,Cases,COOLER MASTER,src\\main\\resources\\
+CAS87654322,CASE TD300 MESH TD300-KGNN-S00,779,Componentes,Cases,COOLER MASTER,src\\main\\resources\\
+CAS34567891,CASE GAMING MID TOWER VALOR AIR MERA EDITION,579,Componentes,Cases,XPG,src\\main\\resources\\
+CAS56789013,CASE GAMER ND-560,399,Componentes,Cases,X-LION,src\\main\\resources\\
+CAS23456780,CASE CG08A9 RGB,289,Componentes,Cases,EAGLE WARRIOR,src\\main\\resources\\
+CAS89012345,CASE MID TOER GAMING BIONIC RGB WHITE V2,329,Componentes,Cases,AERO COOL,src\\main\\resources\\
+MEM98041657,MEMORIA RAM PARA PC SPECTRIX D45G 32GB 3600MHZ PC4-28800 RGB,869,Componentes,Memorias,XPG,src\\main\\resources\\
+MEM57482103,MEMORIA RAM PARA PC SPECTRIX D50 16GB DDR4 3600MHZ BLANCA,489,Componentes,Memorias,XPG,src\\main\\resources\\
+MEM23906548,MEMORIA RAM PARA PC SPECTRIX D45G 16GB 3200MHZ BLANCA,459,Componentes,Memorias,XPG,src\\main\\resources\\
+MEM71293485,MEMORIA RAM PARA PC SPECTRIX D35G 16GB DDR4 3200MHZ BLANCA,399,Componentes,Memorias,XPG,src\\main\\resources\\
+MEM86503214,MEMORIA RAM PARA PC 8GB DDR4 8GB SPECTRIX D50 NEGRA,349,Componentes,Memorias,XPG,src\\main\\resources\\
+MEM10973825,MEMORIA RAM PARA PC SPECTRIX D45G 8GB 3600MHZ DDR4,350,Componentes,Memorias,XPG,src\\main\\resources\\
+MEM45329871,MEMORIA RAM PARA PC SPECTRIX D45G 8GB DDR4 3200MHZ BLANCA,259,Componentes,Memorias,XPG,src\\main\\resources\\
+MEM62718430,MEMORIA RAM PARA PC TOUGHRAM RGB 16GB (2X8GB) 3600MHZ DDR4,1269,Componentes,Memorias,THERMALTAKE,src\\main\\resources\\
+MEM31857096,MEMORIA RAM 32GB 3200 PARA LAPTOP KINGSTON,999,Componentes,Memorias,KINGSTON,src\\main\\resources\\
+MEM84520936,MEMORIA RAM PARA PC 16GB DDR4 3200 BALLISTIX WHITE,799,Componentes,Memorias,CRUCIAL,src\\main\\resources\\
+MEM56230198,MEMORIA RAM PARA PC LANCER BLADE 16GB 6000MT/S PC5-48000 DDR5 NEGRA,699,Componentes,Memorias,XPG,src\\main\\resources\\
+MEM48713695,MEMORIA RAM PARA PC 8GB DDR5 4800,699,Componentes,Memorias,ADATA,src\\main\\resources\\
+MEM92657034,MEMORIA RAM PARA PC LANCER BLADE 16GB 6000MT/S PC5-48000 DDR5 BLANCA,669,Componentes,Memorias,XPG,src\\main\\resources\\
+MEM30576149,MEMORIA RAM PARA LAPTOP 8GB DDR5-4800,559,Componentes,Memorias,SAMNSUNG,src\\main\\resources\\
+MEM80431276,MEMORIA RAM PARA LAPTOP 16GB DDR5 5600,539,Componentes,Memorias,ADATA,src\\main\\resources\\
+MEM13924680,MEMORIA RAM PARA PC SPECTRIX D60G 16GB 3200MHZ DDR4,499,Componentes,Memorias,XPG,src\\main\\resources\\
+MEM64278519,MEMORIA RAM PARA PC SPECTRIX D41 16GB 3200MHZ DDR4,500,Componentes,Memorias,XPG,src\\main\\resources\\
+MEM50792364,MEMORIA RAM PARA PC 8GB DDR5-4800 NEGRA,469,Componentes,Memorias,CRUCIAL,src\\main\\resources\\
+MEM21583967,MEMORIA RAM PARA LAPTOP 8GB 4800MHz DDR5,379,Componentes,Memorias,KINGSTON,src\\main\\resources\\
+MEM97840325,MEMORIA RAM PARA PC 8GB DDR4 3200 PC4-25600,189,Componentes,Memorias,ADATA,src\\main\\resources\\
+MOT78901234,MOTHERBOARD ROG MAXIMUS Z690 HERO EVANGELION LGA1700,5499,Componentes,Motherboards,ASUS,src\\main\\resources\\
+MOT56789012,MOTHERBOARD ROG STRIX Z790-E GAMING WIFI,4999,Componentes,Motherboards,ASUS,src\\main\\resources\\
+MOT34567890,MOTHERBOARD Z790 AERO G LGA 1700 PCIE 5,3899,Componentes,Motherboards,GIGABYTE,src\\main\\resources\\
+MOT12345678,MOTHERBOARD GAMING Z590 WIFI GUNDAM EDITION,1699,Componentes,Motherboards,ASUS,src\\main\\resources\\
+MOT89012345,MOTHERBOARD B650E STEEL LEGEND WIFI,3199,Componentes,Motherboards,ASROCK,src\\main\\resources\\
+MOT67890123,MOTHERBOARD B650 ELITE AX,2899,Componentes,Motherboards,AORUS,src\\main\\resources\\
+MOT45678901,MOTHERBOARD ROG STRIX Z790-A GAMING WIFI D4,2799,Componentes,Motherboards,ASUS,src\\main\\resources\\
+MOT23456789,MOTHERBOARD X670-P DDR5 AMD,2665,Componentes,Motherboards,ASUS,src\\main\\resources\\
+MOT90123456,MOTHERBOARD Z690 UD DDR4,2499,Componentes,Motherboards,GIGABYTE,src\\main\\resources\\
+MOT78901235,MOTHERBOARD B760-PLUS WIFI SOCKT LGA 1700,2299,Componentes,Motherboards,ASUS,src\\main\\resources\\
+MOT56789013,MOTHERBOARD TUF GAMING B760M-PLUS WIFI DDR5,1999,Componentes,Motherboards,ASUS,src\\main\\resources\\
+MOT34567891,MOTHERBOARD Z790 PG LIGHTNING PHANTOM GAMING,2049,Componentes,Motherboards,ASROCK,src\\main\\resources\\
+MOT12345679,MOTHERBOARD B760M STEEL LEGEND WIFI,1669,Componentes,Motherboards,ASROCK,src\\main\\resources\\
+MOT89012346,MOTHERBOARD X570 UD,1349,Componentes,Motherboards,GIGABYTE,src\\main\\resources\\
+MOT67890124,MOTHERBOARD PRIME B760-PLUS LGA 1700,1399,Componentes,Motherboards,ASUS,src\\main\\resources\\
+MOT45678901,MOTHERBOARD B760M K DDR4 SOCKET 1700,1049,Componentes,Motherboards,GIGABYTE,src\\main\\resources\\
+MOT23456780,MOTHERBOARD B550MH,999,Componentes,Motherboards,BIOSTAR,src\\main\\resources\\
+MOT90123457,MOTHERBOARD + PROCESADOR CELERON J4005I-C PRIME 5X,779,Componentes,Motherboards,ASUS,src\\main\\resources\\
+MOT78901236,MOTHERBOAR B650M ELITE AX,2699,Componentes,Motherboards,AORUS,src\\main\\resources\\
+MOT56789012,MOTHREBOARD X670E PRO RS,3349,Componentes,Motherboards,ASROCK,src\\main\\resources\\
+PRO98765432,PROCESADOR CORE i5-14400 2.50GHz,2469,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO23456789,PROCESADOR CORE I5-14400F 2.5GHZ LGA 1700,2199,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO87654321,PROCESADOR I5-13400F LGA 1700,2199,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO34567890,PROCESADOR RYZEN 5 8500G 3.5GHZ MAX BOOST 5.0GHZ,1999,Componentes,Procesadores,AMD,src\\main\\resources\\
+PRO76543210,PROCESADOR RYZEN 7 5700G 3.8GHZ,1999,Componentes,Procesadores,AMD,src\\main\\resources\\
+PRO45678901,PROCESADOR CORE I5-12400 2.5GHZ LGA 1700,1899,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO65432109,PROCESADOR RYZEN 5 3600,1749,Componentes,Procesadores,AMD,src\\main\\resources\\
+PRO54321098,PROCESADOR I3-13100 LGA 1700,1549,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO32109876,PROCESADOR RYZEN 9 7950X3D 4.2GHZ MAX BOOST 5.7GHZ,6499,Componentes,Procesadores,AMD,src\\main\\resources\\
+PRO89012345,PROCESADOR I9-14900K LGA 1700,6199,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO10987654,PROCESADOR I9-14900KF LGA 1700,5899,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO67890123,PROCESADOR I7-14700F LGA 1700,3929,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO21098765,PROCESADOR RYZEN 7 8700G 4.2GHZ MAX BOOST 5.1GHZ,3699,Componentes,Procesadores,AMD,src\\main\\resources\\
+PRO54321099,PROCESADOR CORE I5-12600K 3.7GHZ LGA 1700,3499,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO78901234,PROCESADOR I7-11700KF 3.6GHz,3499,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO09876543,PROCESADOR I5-14600K LGA 1700,3379,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO87654322,PROCESADOR RYZEN 5 7600X 4.7GHZ AM5,3329,Componentes,Procesadores,AMD,src\\main\\resources\\
+PRO56789012,PROCESADOR CORE I7-12700 2.1GHZ LGA 1700,3299,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO43210987,PROCESADOR CORE I7-12700F 2.1GHZ LGA1700,2979,Componentes,Procesadores,INTEL,src\\main\\resources\\
+PRO12345678,PROCESADOR RYZEN 5 7600 3.8GHZ MAX BOOST 5.1GHZ 6CORE,2599,Componentes,Procesadores,AMD,src\\main\\resources\\
+TAR78901234,TARJETA GRAFICA RX 6500 XT 4GB GDDR6,2199,Componentes,Tarjetas,BIOSTAR,src\\main\\resources\\
+TAR56782345,TARJETA DE VIDEO DUALRTX4060OC 8GB GDDR6 90YV0JC0-M0AA00,3299,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR23456789,TARJETA GRAFICA RTX 4070 SUPER AERO OC 12GB SLS3,6999,Componentes,Tarjetas,GIGABYTE,src\\main\\resources\\
+TAR45678901,TARJETA GRAFICA RTX 4070 SUPER DUAL 12GB WHITE,6499,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR89012345,TARJETA GRAFICA RTX 4070 SUPER 12GB GDDR6X,6349,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR67890123,TARJETA GRAFICA TUF GAMING GEFORCE RTX 4060TI 8GB GDDR6 OC AURA SYNC 90YV0J50-M0AA00,4849,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR12345678,TARJETA GRAFICA DUAL GTX 1650 4GB GDDR6 AUTO EXTREME,1589,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR34567890,TARJETA DE VIDEO TUF GAMING GEFORCE RTX 4070 12GB GDDR6X,7199,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR90123456,TARJETA DE VIDEO ROG STRIX GAMING GEFORCE RTX 4060TI 8GB GDDR6 OC AURA SYNC 90YV0J52-M0AA0,5179,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR56789012,TARJETA DE VIDEO DUAL RTX4060TI 8G GDDR6 WHITE 90YVOJ43-MVA,4399,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR45678902,TARJETA DE VIDEO DUAL RTX4060TI OC 8G GDDR6,4319,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR23456780,TARJETA DE VIDEO DUAL RTX 4060 8GB GDDR6 OC WHITE,3399,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR67890122,TARJETA DE VIDEO DUAL RTX 3050 6GB GDDR6 OC,1849,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR89012346,TARJETA DE VIDEO ASUS GEFORCE GT 1030 OC 2GB GDDR5 64BIT PCI EXPRESS 3.0,906,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR12345679,TARJ DE VIDEO ASUS PHOENIX GEFORCE GTX 1650 EVO 4GB,1844,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR34567891,TARJ DE VIDEO ASUS PHOENIX RTX 3050 8GB GDDR6 PH-RTX3050-8G,2401,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR90123457,TARJ DE VIDEO ASUS PHOENIX RTX 3060 V2 12GB GDDR6 PH-RTX3060-12G-V2,3552,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR78901235,TARJETA DE VIDEO ASUS ROG STRIX GEFORCE RTX 4060 8GB GDDR6 OC GAMING,4104,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR56782346,TARJETA DE VIDEO ASUS ROG STRIX RTX4080 16GB GDDR6X GAMING,15109,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+TAR67890124,TARJETA DE VIDEO ASUS ROG STRIX RTX4080 OC WHITE 16GB GDDR6X,16286,Componentes,Tarjetas,ASUS,src\\main\\resources\\
+VEN87654321,Base con ventilador para laptop XTA150,69,Componentes,Ventiladores,XTECH,src\\main\\resources\\
+VEN23456789,Base con ventilador para laptop KNS-110B,249,Componentes,Ventiladores,KLIP XTREME,src\\main\\resources\\
+VEN98765432,DISIPADOR Y VENTILADOR CYLON 4F RGB,279,Componentes,Ventiladores,AERO COOL,src\\main\\resources\\
+VEN34567890,DISCIPADOR Y VENTILADOR CYLON 4F WHITE RGB,279,Componentes,Ventiladores,AERO COOL,src\\main\\resources\\
+VEN45678901,BASE CON VENTILADOR PARA LAPTOP 15.6 XTA-155,109,Componentes,Ventiladores,XTECH,src\\main\\resources\\
+VEN56789012,KIT DE VENTILADORES DUO 12 PRO 3X12CM 120MM RGB,229,Componentes,Ventiladores,AERO COOL,src\\main\\resources\\
+VEN67890123,KIT DE VENTILADORES MIRAGE 12 PRO RGB 3X12CM 120MM,269,Componentes,Ventiladores,AERO COOL,src\\main\\resources\\
+VEN78901234,KIT DE VENTILADORES QX120 RGB ICUE LINK,1149,Componentes,Ventiladores,CORSAIR,src\\main\\resources\\
+VEN89012345,CORSAIR VENTILADOR CASE PWM 120 iCUE SP120 RGB ELITE NEGRO CO-9050108-,156,Componentes,Ventiladores,CORSAIR,src\\main\\resources\\
+VEN90123456,CORSAIR VENTILADOR CASE PWM 120 iCUE SP120 RGB ELITE BLANCO CO-9050136,162,Componentes,Ventiladores,CORSAIR,src\\main\\resources\\
+VEN01234567,CORSAIR VENTILADOR AF140 ELITE TAMAÑO 140mm PWM PARA CASE COLOR NEGRO CO-9050141-WW,172,Componentes,Ventiladores,CORSAIR,src\\main\\resources\\
+VEN12345678,CORSAIR VENTILADOR CASE LL120 DUAL LIGHT RGB LED 120mm CO-9050071-WW,276,Componentes,Ventiladores,CORSAIR,src\\main\\resources\\
+VEN21098765,CORSAIR VENTILADOR iCUE QL120 RGB 120mm PWM 1 UNIDAD CO-9050097-WW,312,Componentes,Ventiladores,CORSAIR,src\\main\\resources\\
+VEN54321098,CORSAIR VENTILADOR CASE iCUE LINK QX120 RGB 120mm PWM NEGRO,349,Componentes,Ventiladores,CORSAIR,src\\main\\resources\\
+VEN87654322,CORSAIR VENTILADOR CASE iCUE LINK QX120 RGB 120mm PWM BLANCO,349,Componentes,Ventiladores,CORSAIR,src\\main\\resources\\
+VEN32109876,CORSAIR VENTILADOR CASE iCUE LINK QX140 RGB 140mm PWM BLANCO,380,Componentes,Ventiladores, CORSAIR,src\\main\\resources\\
+VEN65432109,CORSAIR VENTILADOR CASE iCUE LINK QX140 RGB 140mm PWM NEGRO,380,Componentes,Ventiladores,CORSAIR,src\\main\\resources\\
+VEN98765433,CORSAIR 2VENTILADORES CASE PWM 140 iCUE SP140 RGB BLANCO CO-9050139-WW,479,Componentes,Ventiladores,CORSAIR,src\\main\\resources\\
+VEN54321099,CORSAIR KIT DE 3VENTILADORES CASE PWM 120 iCUE SP120 RGB CO-9050109-WW,552,Componentes,Ventiladores,CORSAIR,src\\main\\resources\\
+VEN21098766,ASUS KIT DE 3 VENTILADORES TUF GAMING TF120 ARGB BLANCO 90DA0033-B0803,646,Componentes,Ventiladores,ASUS,src\\main\\resources\\
+ALM98765432,UNIDAD DE ESTADO SOLIDO NV1 250GB,375,Componentes,Almacenamiento,KINGSTON,src\\main\\resources\\
+ALM56789123,UNIDAD DE ESTADO SOLIDO PCIE 4 NV2 500GB,389,Componentes,Almacenamiento,KINGSTON,src\\main\\resources\\
+ALM34567891,UNIDAD DE ESTADO SOLIDO SSD PCIE 4 NV2 500GB,479,Componentes,Almacenamiento,KINGSTON,src\\main\\resources\\
+ALM12345678,UNIDAD DE ESTADO SOLIDO NV1 500GB,499,Componentes,Almacenamiento,KINGSTON,src\\main\\resources\\
+ALM87654321,UNIDAD SSD EXTERNO SD700 DURABLE 512GB USB 3.2 AMARILLO,649,Componentes,Almacenamiento,ADATA,src\\main\\resources\\
+ALM65432198,UNIDAD DE ESTADO SOLIDO AORUS 500GB NVME GEN 4,699,Componentes,Almacenamiento,GYGABYTE,src\\main\\resources\\
+ALM43219876,UNIDAD SSD EXTERNO SE770G 512GB RGB USB 3.2 GEN 2 USB-C,899,Componentes,Almacenamiento,ADATA,src\\main\\resources\\
+ALM21987654,DISCO DURO EXTERNO 2TB STAR WARS GROGU,1199,Componentes,Almacenamiento,SEAGATE,src\\main\\resources\\
+ALM98765433,UNIDAD SSD EXTERNO SE900G 512GB RGB USB 3.2 GEN 2 USB-C,1025,Componentes,Almacenamiento,ADATA,src\\main\\resources\\
+ALM76543219,DISCO EXTERNO EXPANSION 4TB 2.5 STKM4000400,1099,Componentes,Almacenamiento,SEAGATE,src\\main\\resources\\
+ALM54321987,SOLIDO M.2 NV2 2TB SSD PCIE 4.0,1149,Componentes,Almacenamiento,KINGSTON,src\\main\\resources\\
+ALM32198765,DISCO DURO EXTERNO 2TB STAR WARS THE MANDALORIAN,1199,Componentes,Almacenamiento,SEAGATE,src\\main\\resources\\
+ALM19876543,DISCO DURO EXTERNO 2TB STAR WARS BOBA FETT,1199,Componentes,Almacenamiento,SEAGATE,src\\main\\resources\\
+ALM87654322,DISCO EXTERNO ONE TOUCH SLIM 5TB 2.5 STKC5000401 SILVER,1289,Componentes,Almacenamiento,SEAGATE,src\\main\\resources\\
+ALM65432199,UNIDAD DE ESTADO SOLIDO SSD PCIE 4 NV2 2TB KINGSTON,1399,Componentes,Almacenamiento,KINGSTON,src\\main\\resources\\
+ALM43219877,DISCO EXTERNO ONE TOUCH SLIM 2TB 2.5 STKB2000402 BLUE,699,Componentes,Almacenamiento,SEAGATE,src\\main\\resources\\
+ALM21987655,DISCO EXTERNO HV620S 2.5 SLIM 1TB BLUE,479,Componentes,Almacenamiento,ADATA,src\\main\\resources\\
+ALM98765434,MEMORIA MICRO SD 128GB,449,Componentes,Almacenamiento,INSTA360,src\\main\\resources\\
+ALM76543210,DISCO DURO EXTERNO HV320 1TB 2.5 BLANCO,479,Componentes,Almacenamiento,ADATA,src\\main\\resources\\
+ALM54321988,DISCO EXTERNO ONE TOUCH SLIM 2TB 2.5 STKB2000403 RED,699,Componentes,Almacenamiento,SEAGATE,src\\main\\resources\\
+REF98765432,ENFRIAMIENTO LIQUIDO MIRAGE L240 SERIES RGB BLACK VERSION LGA 1700,699,Componentes,Refrigeracion,AERO COOL,src\\main\\resources\\
+REF45678901,ENFRIAMIENTO LIQUIDO MIRAGE L240 SERIES RGB WHITE VERSION LGA 1700,699,Componentes,Refrigeracion,AERO COOL,src\\main\\resources\\
+REF23456789,ENFRIAMIENTO LIQUIDO MASTERLIQUID ML240 VIVID CON PANTALLA,1049,Componentes,Refrigeracion,COOLER MASTER,src\\main\\resources\\
+REF76543210,ENFRIAMIENTO LIQUIDO AORUS 280,2425,Componentes,Refrigeracion,GIGABYTE,src\\main\\resources\\
+REF54321098,ENFRIAMIENTO LIQUIDO ROG RYUO III 240 ARGB WHITE 90RC00J2-M0AAY0,2979,Componentes,Refrigeracion,ASUS,src\\main\\resources\\
+REF32109876,CORSAIR iCUE H100i ELITE XT REFRIGERADOR LIQUIDO PARA CPU CON PANTALLA LCD RGB TAMAÑO 240mm COLOR NEGRO,2401,Componentes,Refrigeracion,CORSAIR,src\\main\\resources\\
+REF87654321,Gigabyte Aorus WaterForce X280 Enfriamiento Liquido 280mm ARGB con Pantalla LCD,2510,Componentes,Refrigeracion,GYGABYTE,src\\main\\resources\\
+REF10987654,Gigabyte Aorus WaterForce X240 Enfriamiento Liquido 240mm ARGB con Pantalla LCD,2213,Componentes,Refrigeracion,GYGABYTE,src\\main\\resources\\
+REF98765410,Cougar Poseidon Elite ARGB Enfriamiento Liquido 360mm - Blanco,901,Componentes,Refrigeracion,COUGAR,src\\main\\resources\\
+REF56789012,Balam Rush Hydrox LS970 Enfriamiento Liquido ARGB 240mm 2000RPM,830,Componentes,Refrigeracion,BALAM RUSH,src\\main\\resources\\
+REF43210987,Cougar Poseidon Elite ARGB Enfriamiento Liquido 240mm - Blanco,751,Componentes,Refrigeracion,COUGAR,src\\main\\resources\\
+REF89012345,MSI MAG CORELIQUID C240 Enfriamiento Liquido 240mm RGB,930,Componentes,Refrigeracion,MSI,src\\main\\resources\\
+REF67890123,Cougar Poseidon GT 360 Enfriador Liquido ARGB 360mm,1256,Componentes,Refrigeracion,COUGAR,src\\main\\resources\\
+REF54321099,Cougar Poseidon Elite ARGB Enfriamiento Liquido 360mm - Negro,864,Componentes,Refrigeracion,COUGAR,src\\main\\resources\\
+REF21098765,Corsair Enfriamiento Liquido iCUE H100i Elite Capellix,1347,Componentes,Refrigeracion,CORSAIR,src\\main\\resources\\
+REF87654322,Cougar Forza 85 ARGB Cooler de Aire para CPU 160mm - Negro,714,Componentes,Refrigeracion,COUGAR,src\\main\\resources\\
+REF54321090,Cougar Forza 85 Essential Cooler de Aire para CPU 160mm - Negro,492,Componentes,Refrigeracion,COUGAR,src\\main\\resources\\
+REF09876543,Cougar Forza 50 ARGB Cooler de Aire para CPU 155mm - Negro,474,Componentes,Refrigeracion,COUGAR,src\\main\\resources\\
+REF87654323,Cougar Forza 50 Essential Cooler de Aire para CPU 155mm - Negro,285,Componentes,Refrigeracion,COUGAR,src\\main\\resources\\
+REF12345678,Enfriamiento Liquido ML120R RGB Cooler Master,1099,Componentes,Refrigeracion,COOLER MASTER,src\\main\\resources\\
+FUE98765432,FUENTE DE PODER PRIME 850W GOLD 80 PLUS ATX 3.0,1399,Componentes,Fuentes,ASUS,src\\main\\resources\\
+FUE45678901,FUENTE DE PODER ROG LOKI 750W PLATINUM 80 PLUS AURA SYNC 90YE00N4-B0AA00,1899,Componentes,Fuentes,ASUS,src\\main\\resources\\
+FUE23456789,FUENTE DE PODER TUF-GAMING 1000W GOLD 90YE00S1-BOAA00,1925,Componentes,Fuentes,ASUS,src\\main\\resources\\
+FUE87654321,FUENTE DE PODER ROG STRIX 850E AURA EDITION 80 PLUS GOLD,1999,Componentes,Fuentes,ASUS,src\\main\\resources\\
+FUE54321098,FUENTE DE PODER ROG-THOR-850P2-GAMING 90YE00L2-B0AA00,2249,Componentes,Fuentes,ASUS,src\\main\\resources\\
+FUE10987654,FUENTE DE PODER XG 750 PLATINUM MPG-7501-AFBAP-U2,2299,Componentes,Fuentes,COOLER MASTER,src\\main\\resources\\
+FUE32109876,FUENTE DE PODER ROG LOKI 850W PLATINUM 80 PLUS AURA SYNC 90YE00N3-B0AA00,2379,Componentes,Fuentes,ASUS,src\\main\\resources\\
+FUE76543210,FUENTE DE PODER ROG LOKI 850W PLATINUM WHITE EDITION ATX 3.0 80 PLUS AURA SYNC 330116,2379,Componentes,Fuentes,ASUS,src\\main\\resources\\
+FUE21098765,FUENTE DE PODER ROG LOKI 1000W PLATINUM AURA SYNC 80 PLUS ATX 3.0,2499,Componentes,Fuentes,ASUS,src\\main\\resources\\
+FUE87654329,FUENTE DE PODER SFX BRONZE 450W,549,Componentes,Fuentes,SHARKOON,src\\main\\resources\\
+FUE43210987,FUENTE DE PODER ELITE NEX W600 FULL RANGE MPW-6001-ACAW-BUS,619,Componentes,Fuentes,COOLER MASTER,src\\main\\resources\\
+FUE98765431,FUENTE DE PODER G12 GM-850 WATTS 80 PLUS GOLD,999,Componentes,Fuentes,SEASONIC,src\\main\\resources\\
+FUE65432109,FUENTE DE PODER G12 GC-850 WATTS 80 PLUS GOLD,999,Componentes,Fuentes,SEASONIC,src\\main\\resources\\
+FUE54321099,FUENTE DE PODER CYLON 700W 80 PLUS RGB FULL RANGE,499,Componentes,Fuentes,AERO COOL,src\\main\\resources\\
+FUE21098766,"FUENTE DE PODER S12-550 WATTS 80 PLUS BRONZE",599,Componentes,Fuentes,SEASONIC,src\\main\\resources\\
+FUE87654320,FUENTE DE PODER B12 BC-750 WATTS 80 PLUS BRONZE,779,Componentes,Fuentes,SEASONIC,src\\main\\resources\\
+FUE12345678,FUENTE DE PODER MWE 650 BRONZE 80 PLUS MPE-6501-ACAAB-US,789,Componentes,Fuentes,COOLER MASTER,src\\main\\resources\\
+FUE87654322,FUENTE DE PODER DORADO 850W 0 PLUS GOLD RGB,799,Componentes,Fuentes,AERO COOL,src\\main\\resources\\
+FUE43210988,FUENTE DE PODER MIRAGE GOLD 850W RGB 80 PLUS GOLD,799,Componentes,Fuentes,AERO COOL,src\\main\\resources\\
+FUE98765433,FUENTE DE PODER G12 GC-750 WATTS 80 PLUS GOLD,879,Componentes,Fuentes,SEASONIC,src\\main\\resources\\
+CAB87654321,Cable VGA Macho a Macho XTC-308 1.8m,25,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB23456789,Cable de Poder Impresoras XTC110,25,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB98765432,CABLE DE PODER XTC210 1.8M,27,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB54321098,Cable HDMI a HDMI CTX152 3 metros Color Negro,35,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB19283746,Cable HDMI XTC 406 1.8 Metros Color Negro,39,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB65432109,Cable USB a USB XTC352,45,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB09876543,CABLE HDMI XTC-410 3M NEGRO,45,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB56789012,CABLE TIPO C A MICRO USB 2.0 XTC-520,50,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB34567890,Cable TIpo C male a Usb 2.0 XTC 510,55,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB01234567,CABLE DISPLAYPORT XTC-354 1.8M,69,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB87654322,CABLE LINE USB-C A LIGHTNING S7BCN-N678 CORINTO Y PLATEADO,169,Componentes,Cables,SKULLCANDY,src\\main\\resources\\
+CAB54321099,CABLE VERTICAL PCIE 3.0 X16 VER. 2 -300MM RISER,289,Componentes,Cables,COOLER MASTER,src\\main\\resources\\
+CAB23456789,Cable Lightning Para Iphone 5/ Ipad Air Color Negro 1.2m. Y Adaptador de Carro,99,Componentes,Cables,BELKIN,src\\main\\resources\\
+CAB09876543,CABLE LINE USB A USB C 1.2M S7RCC-L094 ROJO,75,Componentes,Cables,SKULLCANDY,src\\main\\resources\\
+CAB76543210,CABLE HDMI XTC 620 3M,79,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB32109876,Cable Lightning de 50cm color rosa dorado KAC-001RG,85,Componentes,Cables,KLIP XTREME,src\\main\\resources\\
+CAB78901234,"Cable HDMI 25 Pies - ""7.6Mts"" XTC-425",89,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB45678901,Cable Tipo C a Tipo C XTC-530,89,Componentes,Cables,XTECH,src\\main\\resources\\
+CAB89012345,CABLE USB A TYPO C PARA NINTENDO SWITCH 2.4MT NEGRO,109,Componentes,Cables,NYKO,src\\main\\resources\\
+CAB54321090,CABLE LINE+ USB-C A USB-C 1.8M S7BCP-N094,119,Componentes,Cables,SKULLCANDY,src\\main\\resources\\
+MOU89123456,MOUSE WIRELESS GAMER COBRA PRO NASA RZ01-04660100-R3U1,1019,Perifericos,Mouse,RAZER,src\\main\\resources\\
+MOU56781234,MOUSE GAMING PRO X SUPERLIGHT - NEGRO,1149,Perifericos,Mouse,LOGITECH,src\\main\\resources\\
+MOU98765432,MOUSE GAMING NAGA PRO,1199,Perifericos,Mouse,RAZER,src\\main\\resources\\
+MOU43215678,MOUSE GAMING BASILISK V3 PRO BT,1239,Perifericos,Mouse,RAZER,src\\main\\resources\\
+MOU87654321,MOUSE GAMING DEATHADDER V3 PRO NEGRO,1249,Perifericos,Mouse,RAZER,src\\main\\resources\\
+MOU34567812,MOUSE GAMING DEATHADDER V3 PRO MERCURY,1249,Perifericos,Mouse,RAZER,src\\main\\resources\\
+MOU65432198,MOUSE GAMER BASILISK V3 PRO MERCURY NASA RZ01-04620200-R3U1,1149,Perifericos,Mouse,RAZER,src\\main\\resources\\
+MOU23456789,MOUSE GAMER NAGA V2 PRO RZ01-04400100-R3U1,1449,Perifericos,Mouse,RAZER,src\\main\\resources\\
+MOU78901234,MOUSE GAMER VIPER V2 PRO PUBG RZ01-04390600-R3M1 NEGRO/AMARILLO,1599,Perifericos,Mouse,RAZER,src\\main\\resources\\
+MOU54321098,MOUSE GAMER DEATHADDER V3 PRO FAKER FRML RZ01-04630400-R31M,1699,Perifericos,Mouse,RAZER,src\\main\\resources\\
+MOU10987654,MOUSE GAMING PRO - LEAGUE OF LEGENDS,899,Perifericos,Mouse,LOGITECH,src\\main\\resources\\
+MOU87654322,MOUSE GAMING DEATHADDER V2 HALO VERDE,899,Perifericos,Mouse,RAZER,src\\main\\resources\\
+MOU43210987,MOUSE INALAMBRICO MX MASTER 3S BLANCO,949,Perifericos,Mouse,LOGITECH,src\\main\\resources\\
+MOU56789012,MOUSE GAMING G502 LIGHTSPEED,999,Perifericos,Mouse,LOGITECH,src\\main\\resources\\
+MOU32109876,MOUSE GAMING ROG CHAKRAM CORE,699,Perifericos,Mouse,ASUS,src\\main\\resources\\
+MOU89012345,MOUSE GAMING INALAMBRICO G705 AURORA COLLECTION,689,Perifericos,Mouse,LOGITECH,src\\main\\resources\\
+MOU45678901,MOUSE GAMING ROG GLADIUS II ORIGIN PNK LTD,499,Perifericos,Mouse,ASUS,src\\main\\resources\\
+MOU56789011,MOUSE BT MX VERTICAL,699,Perifericos,Mouse,LOGITECH,src\\main\\resources\\
+MOU12345678,MOUSE MX ANYWHERE 3 - ROSA,699,Perifericos,Mouse,LOGITECH,src\\main\\resources\\
+MOU98765433,MOUSE GAMING ROG STRIX IMPACT II GUNDAM EDITION,799,Perifericos,Mouse,ASUS,src\\main\\resources\\
+TEC98765432,TECLADO GAMING GMMK COMPACT - NEGRO - BROWN SWITCHES,699,Perifericos,Teclados,GLORIOUS,src\\main\\resources\\
+TEC23456789,TECLADO ERGONOMICO ERGO K860 ESPAÑOL,1119,Perifericos,Teclados,LOGITECH,src\\main\\resources\\
+TEC87654321,TECLADO GAMING G713 AURORA COLLECTION,1329,Perifericos,Teclados,LOGITECH,src\\main\\resources\\
+TEC34567890,TECLADO BLACKWINDOW V4 GREEN NASA RZ03-04690200-R3U1,1459,Perifericos,Teclados,RAZER,src\\main\\resources\\
+TEC76543210,TECLADO GAMING INALAMBRICO G715 AURORA COLLECTION,1519,Perifericos,Teclados,LOGITECH,src\\main\\resources\\
+TEC45678901,TECLADO USB BLACKWIDOW V3 ROBLOX FRML RZ03-03542800-R3M1,1649,Perifericos,Teclados,RAZER,src\\main\\resources\\
+TEC65432109,TECLADO GAMING HUNTSMAN V2 ANALOG - US,1899,Perifericos,Teclados,RAZER,src\\main\\resources\\
+TEC54321098,TECLADO GAMING BLACKWIDOW V3 HALO,1899,Perifericos,Teclados,RAZER,src\\main\\resources\\
+TEC32109876,TECLADO MECANICO GAMING BLACKWIDOW V4 PRO RGB,1999,Perifericos,Teclados,RAZER,src\\main\\resources\\
+TEC10987654,TECLADO INALAMBRICO K380 MULTI-DEVICE - ROSA - ES,249,Perifericos,Teclados,LOGITECH,src\\main\\resources\\
+TEC21098765,TECLADO MULTI DEVICE K380 MORADO,249,Perifericos,Teclados,LOGITECH,src\\main\\resources\\
+TEC54321099,TECLADO INALAMBRICO K380 MULTI-DEVICE - BLANCO,289,Perifericos,Teclados,LOGITECH,src\\main\\resources\\
+TEC87654322,TECLADO GAMING MECANICO DRAGONBORN K630W RGB - BLANCO,385,Perifericos,Teclados,REDRAGON,src\\main\\resources\\
+TEC43210987,TECLADO HUNTSMAN V3 PRO MIN RZ03-04990200-R3U1,1449,Perifericos,Teclados,RAZER,src\\main\\resources\\
+TEC98765433,TECLADO ANALOGO HUNSTMAN V3 PRO TENKEYLESS RZ03-04980200-R3U1,1749,Perifericos,Teclados,RAZER,src\\main\\resources\\
+TEC54321090,TECLADO USB DEATHSTALKER V2 PRO CHROMA RGB RZ03-04360200-R3U1,1999,Perifericos,Teclados,RAZER,src\\main\\resources\\
+TEC12345678,TECLADO ANALOGO HUNTSMAN V3 PRO RZ03-04970200-R3U1,1999,Perifericos,Teclados,RAZER,src\\main\\resources\\
+TEC87654323,TECLADO MECANICO REDRAGON GAMING DEIMOS USB NEGRO RGB 70% K599,559,Perifericos,Teclados,REDRAGON,src\\main\\resources\\
+TEC65432100,TECLADO MECANICO FUNCTION MINITKL WHITE,989,Perifericos,Teclados,NZXT,src\\main\\resources\\
+TEC34567891,TECLADO GAMING MECANICO INALAMBRICO FIZZ PRO RGB 60% ROSA BLANCO,459,Perifericos,Teclados,REDRAGON,src\\main\\resources\\
+AUD98765432,AUDIFONOS INALAMBRICOS RAIL TRUE S2RLW-Q751 BONE ORANGE GLOBE,889,Perifericos,Audifonos,SKULLCANDY,src\\main\\resources\\
+AUD87654321,AUDIFONOS INALAMBRICOS RAIL TRUE S2RLW-Q740 TRUE BLACK,889,Perifericos,Audifonos,SKULLCANDY,src\\main\\resources\\
+AUD76543210,AUDIFONOS GAMING KRAKEN KITTY EDITION NEGRO,979,Perifericos,Audifonos,RAZER,src\\main\\resources\\
+AUD65432109,AUDIFONOS GAMING KRAKEN ULTIMATE,979,Perifericos,Audifonos,RAZER,src\\main\\resources\\
+AUD54321098,AUDIFONOS GAMING A20 WIRELESS GEN 2 - XBOX-PC,1099,Perifericos,Audifonos,ASTRO,src\\main\\resources\\
+AUD43210987,AUDIFONOS GAMING G733 LIGHTSPEED - AZUL,1099,Perifericos,Audifonos,LOGITECH,src\\main\\resources\\
+AUD32109876,AUDIFONOS GAMING PRO X - LEAGUE OF LEGENDS,1099,Perifericos,Audifonos,LOGITECH,src\\main\\resources\\
+AUD21098765,AUDIFONOS INALAMBRICO LIVE FLEX - NEGRO,1299,Perifericos,Audifonos,JBL,src\\main\\resources\\
+AUD10987654,AUDIFONOS INALAMBRICO LIVE FLEX - AZUL,1299,Perifericos,Audifonos,JBL,src\\main\\resources\\
+AUD09876543,AUDIFONOS INALAMBRICO LIVE FLEX - ROSA,1299,Perifericos,Audifonos,JBL,src\\main\\resources\\
+AUD98765430,AUDIFONOS JBL LIVE PRO 2 BLACK,1279,Perifericos,Audifonos,JBL,src\\main\\resources\\
+AUD87654320,AUDIFONOS INALAMBRICOS NOTHING EAR 2 BUDS BLANCOS,1299,Perifericos,Audifonos,NOTHING,src\\main\\resources\\
+AUD76543200,AUDIFONOS GAMING ROG DELTA,1449,Perifericos,Audifonos,ASUS,src\\main\\resources\\
+AUD65432190,AUDIFONOS GAMING KRAKEN KITTY V2 PRO BLACK USB,1599,Perifericos,Audifonos,RAZER,src\\main\\resources\\
+AUD54321080,AUDIFONOS INALAMBRICO TOUR PRO 2 - GRIS,1699,Perifericos,Audifonos,JBL,src\\main\\resources\\
+AUD43210970,AUDIFONOS OVER-EAR HESH EVO WIRELESS NEGRO S6HVW-N740,849,Perifericos,Audifonos,SKULLCANDY,src\\main\\resources\\
+AUD32109860,AUDIFONOS GRIND TRUE WIRELESS AZUL,849,Perifericos,Audifonos,SKULLCANDY,src\\main\\resources\\
+AUD21098750,AUDIFONOS GRIND TRUE WIRELESS GRIS OSCURO,849,Perifericos,Audifonos,SKULLCANDY,src\\main\\resources\\
+AUD10987640,AUDIFONOS GRIND TRUE WIRELESS GRIS CLARO,849,Perifericos,Audifonos,SKULLCANDY,src\\main\\resources\\
+AUD09876530,AUDIFONOS PUSH ACTIVE TRUE WIRELESS S2BPW-P740 NEGRO Y NARANJA,879,Perifericos,Audifonos,SKULLCANDY,src\\main\\resources\\
+MON98765432,MONITOR ODYSSEY 32P G5 CURVO AHD FREESYNC 144HZ,3049,Perifericos,Monitores,SAMSUNG,src\\main\\resources\\
+MON87654321,"MONITOR 34"" VP348QGL 3440 X 1440 75HZ 4MS HDM",3199,Perifericos,Monitores,ASUS,src\\main\\resources\\
+MON76543210,MONITOR LCD XZ342CU34P 180HZ 3440X1440 1MS,3499,Perifericos,Monitores,ACER,src\\main\\resources\\
+MON65432109,MONITOR GAMING TUF VG289Q 4K,3499,Perifericos,Monitores,ASUS,src\\main\\resources\\
+MON54321098,MONITOR OPTIX MAG270VC2 1920X1080 FHD 165HZ 1MS VA,3549,Perifericos,Monitores,MSI,src\\main\\resources\\
+MON43210987,"MONITOR 34"" VG34VOEL1A 3440 x 1440 100HZ 1MS DP HDMI",3699,Perifericos,Monitores,ASUS,src\\main\\resources\\
+MON32109876,MONITOR S2721QS 27P 3840x2160 4K UHD FREESYNC VESA,3749,Perifericos,Monitores,DELL,src\\main\\resources\\
+MON21098765,MONITOR S2721HS 1920x1080 FHD 75HZ 5MS IPS,3749,Perifericos,Monitores,DELL,src\\main\\resources\\
+MON10987654,MONITOR GAMING ALIENWARE AW2724DM 27p 180hz 1mS QHD,4499,Perifericos,Monitores,DELL,src\\main\\resources\\
+MON09876543,MONITOR PROART PA279CV 3840x2160 4K UHD 60HZ 5MS IPS,4949,Perifericos,Monitores,ASUS,src\\main\\resources\\
+MON98765431,"MONITOR 32"" PA329CV IPS. 4K UHD (3840 x 2160)",6399,Perifericos,Monitores,ASUS,src\\main\\resources\\
+MON87654320,MONITOR CURVO LCD EI491CR 49P 144HZ 3840X1080 4MS,7999,Perifericos,Monitores,ACER,src\\main\\resources\\
+MON76543219,MONITOR ALIENWARE CURVO AW3821DW 38P 144HZ 3840 x 1600 WQHD 1MS,11199,Perifericos,Monitores,DELL,src\\main\\resources\\
+MON65432108,MONITOR ALIENWARE AW3423DWF 34P 3440 x 1400 165HZ,11799,Perifericos,Monitores,DELL,src\\main\\resources\\
+MON54321097,"MONITOR 27"" G274F 180HZ IPS FHD LED",2299,Perifericos,Monitores,MSI,src\\main\\resources\\
+MON43210986,MONITOR CURVO C32R502FHN 32P 75HZ FREEZYNC,2299,Perifericos,Monitores,SAMSUNG,src\\main\\resources\\
+MON32109875,MONITOR S27BM500EN SMART 27P,2599,Perifericos,Monitores,SAMSUNG,src\\main\\resources\\
+MON21098764,MONITOR S2422HG 1920X1080 FHD 165HZ 1MS VA,2799,Perifericos,Monitores,DELL,src\\main\\resources\\
+MON10987653,MONITOR E LINE 343E2 ULTRAWIDE LCD 34P 2560 X1080,2899,Perifericos,Monitores,PHILIPS,src\\main\\resources\\
+MON09876542,MONITOR SMART S32BM500EN 32P FHD 60HZ,2899,Perifericos,Monitores,SAMSUNG,src\\main\\resources\\
+IMP98765432,IMPRESORA ECOTANK L1250 INALAMBRICA CON SISTEMA CONTINUO,1449,Perifericos,Impresoras,EPSON,src\\main\\resources\\
+IMP23456789,IMPRESORA SMART TANK 520,1338,Perifericos,Impresoras,HP,src\\main\\resources\\
+IMP87654321,IMPRESORA MULTIFUNCIONAL ECOTANK L3210 CON SISTEMA CONTINUO,1749,Perifericos,Impresoras,EPSON,src\\main\\resources\\
+IMP34567890,IMPRESORA MULTIFUNCIONAL ECOTANK L3250 INALAMBRICA CON SISTEMA CONTINUO,1995,Perifericos,Impresoras,EPSON,src\\main\\resources\\
+IMP65432109,IMPRESORA SMART TANK 580,1999,Perifericos,Impresoras,HP,src\\main\\resources\\
+IMP98701234,IMPRESORA SMART TANK 53,2349,Perifericos,Impresoras,HP,src\\main\\resources\\
+IMP21098765,MULTIFUNCIONAL HP SMART TANK 790 SISTEM CONT 15NEG 9COL PPM WIFI RED,3510,Perifericos,Impresoras,HP,src\\main\\resources\\
+IMP87654320,IMPRESORA MULTIFUNCIONAL CANON MEGA TANK G4170 11NEG/6COL IPM WIFI SIS TINTA CONTINUA,3406,Perifericos,Impresoras,CANON,src\\main\\resources\\
+IMP54321098,MULTIFUNCIONAL EPSON ECOTANK L5590 TINTA CONTINUA WIFI,3125,Perifericos,Impresoras,EPSON,src\\main\\resources\\
+IMP89012345,MULTIFUNCIONAL CANON MAXIFY GX4010 WIFI SISTEMA CONTINUO,2938,Perifericos,Impresoras,CANON,src\\main\\resources\\
+IMP45678901,MULTIFUNCIONAL CANON G4110 8.8NEG/5.5COL ipm WIFI ESCANER SIS CONTINUO,2719,Perifericos,Impresoras,CANON,src\\main\\resources\\
+IMP78901234,MULTIFUNCIONAL CANON G610 PARA FOTOGRAFIA WIFI SISTEMA CONTINUA,2677,Perifericos,Impresoras,CANON,src\\main\\resources\\
+IMP56789012,MULTIFUNCIONAL CANON G3170 11NEG/6COL ipm WIFI ESCANER SIS CONTINUO,1635,Perifericos,Impresoras,CANON,src\\main\\resources\\
+IMP43210987,MULTIFUNCIONAL CANON G3160 10.8NEG/6COL ipmWIFI ESCANER SC,1378,Perifericos,Impresoras,CANON,src\\main\\resources\\
+IMP67890123,MULTIFUNCIONAL CANON G2170 11NEG/ 6COL ipm ESCANER SISTEMA CONTINUO,1354,Perifericos,Impresoras,CANON,src\\main\\resources\\
+IMP10987654,Multifuncional Hp Deskjet Ink Advantage 2875 7 Impresiones en Negro / 5 Color imágenes por minuto Aproximadamente Wifi,698,Perifericos,Impresoras,HP,src\\main\\resources\\
+IMP54321099,MULTIFUNCIONAL EPSON L3250 TINTA CO 10NEG/5C IPM SCAN WIFI,1378,Perifericos,Impresoras,EPSON,src\\main\\resources\\
+IMP87654321,MULTIFUNCIONAL HP SMART TANK 583 SISTEMA CONTINUO DE TINTA VELOCIDAD DE IMPRESIÓN 12 PPM EN COLOR NEGRO Y 5 PPM A COLOR ESCANER CONEXION USB 2.0 Wi-Fi Direct Microsoft Windows 11- 10- 7 SP1: 32 bits o 64 bits,1427,Perifericos,Impresoras,HP,src\\main\\resources\\
+IMP32109876,MULTIFUNCIONAL HP SMART TANK 580 SISTEMA CONT 11NEG 5 COL PPM SCAN WIFI,1438,Perifericos,Impresoras,HP,src\\main\\resources\\
+IMP89012346,MULTIFUNCIONAL EPSON L4260 TINTA CONTINUA 10.5NEG/5COL ISO IPM A4 WIFI,2302,Perifericos,Impresoras,EPSON,src\\main\\resources\\
+MIC98765432,MICROFONO HYPERX QUADCAST S PARA GAMERS Y STREAMERS CON RGB,1083,Perifericos,Microfonos,HYPERX,src\\main\\resources\\
+MIC23456789,Microfono Seiren V3 Razer Usb Color Negro Chroma RZ19-05060100-R3U1,1068,Perifericos,Microfonos,RAZER,src\\main\\resources\\
+MIC87654321,MICROFONO HYPERX QUADCAST PARA GAMERS Y STREAMERS HX-MICQC-BK,984,Perifericos,Microfonos,HYPERX,src\\main\\resources\\
+MIC34567890,MICROFONO BLUE MODELO YETI NANO USB COLOR AZUL PARA STREAMING,833,Perifericos,Microfonos,BLUE,src\\main\\resources\\
+MIC76543210,MICROFONO RAZER SEIREN V2X USB COLOR NEGRO PARA GAMERS RZ19-04050100-R,714,Perifericos,Microfonos,RAZER,src\\main\\resources\\
+MIC45678901,MICROFONO RAZER SEIREN BLUETOOTH AUX 3.5 NEGRO RZ19-04150100-R3U1,724,Perifericos,Microfonos,RAZER,src\\main\\resources\\
+MIC54321098,MICROFONO PRIMUS ETHOS300P USB NEGRO CON LED PARA STREAMING,740,Perifericos,Microfonos,PRIMUS,src\\main\\resources\\
+MIC67890123,Microfono Seiren V3 Mini Razer Usb Color Blanco RZ19-05050300-R3U1,552,Perifericos,Microfonos,RAZER,src\\main\\resources\\
+MIC32109876,MICROFONO FIFINE MODELO A9 PARA PC Y GAMING USB CON STAND RGB NEGRO,568,Perifericos,Microfonos,FIFINE,src\\main\\resources\\
+MIC89012345,MICROFONO HYPERX DUOCAST PARA GAMERS Y STREAMERS USB CON RGB NEGRO,698,Perifericos,Microfonos,HYPERX,src\\main\\resources\\
+MIC10987654,MICROFONO JBL QUANTUM STREAM CONEXION USB DUAL CONDENSADOR COLOR NEGRO,703,Perifericos,Microfonos,JBL,src\\main\\resources\\
+MIC54321099,MICROFONO RAZER SEIREN X USB COLOR NEGRO PARA GAMERS,708,Perifericos,Microfonos,RAZER,src\\main\\resources\\
+MIC98765433,MICROFONO RAZER SEIREN MINI USB NEGRO RZ19-03450100-R3U1 PARA GAMERS,406,Perifericos,Microfonos,RAZER,src\\main\\resources\\
+MIC21098765,Microfono Seiren V3 Mini Razer Usb Color Negro RZ19-05050100-R3U,458,Perifericos,Microfonos,RAZER,src\\main\\resources\\
+MIC87654322,MICROFONO FIFINE MODELO AM8 PARA PC Y GAMING USB CON STAND RGB NEGRO,380,Perifericos,Microfonos,FIFINE,src\\main\\resources\\
+CAM78901234,CAMARA DE ACCION ACE PRO,4499,Perifericos,Camaras,INSTA360,src\\main\\resources\\
+CAM56789123,CÁMARA DE ACCION GO 3 - 64GB KIT DE ACCION,4099,Perifericos,Camaras,INSTA360,src\\main\\resources\\
+CAM34567890,CAMARA WEB BRIO 500 1080FPS / 7250P 4MP ROSA,1079,Perifericos,Camaras,LOGITECH,src\\main\\resources\\
+CAM12345678,CAMARA WEB BRIO 500 1080FPS / 7250P 4MP BLANCA,1079,Perifericos,Camaras,LOGITECH,src\\main\\resources\\
+CAM89012345,CAMARA WEB BRIO 500 1080FPS / 7250P 4MP NEGRA,1079,Perifericos,Camaras,LOGITECH,src\\main\\resources\\
+CAM67890123,Camara Semi Profesional EOS REBEL T100 15-55MM,3399,Perifericos,Camaras,CANON,src\\main\\resources\\
+CAM45678901,CAMARA DE ACTION 2 COMBO DUAL-SCREEN,2899,Perifericos,Camaras,DJI,src\\main\\resources\\
+CAM23456789,CAMARA EOS R100,6099,Perifericos,Camaras,CANON,src\\main\\resources\\
+CAM90123456,CAMAR PROFESIONAL EOS REBEL SL3 18-55MM 24.1PIXEL 4K WIFI BLUETOOH,6999,Perifericos,Camaras,CANON,src\\main\\resources\\
+CAM78901235,CAMARA WEB C922 PRO,699,Perifericos,Camaras,LOGITECH,src\\main\\resources\\
+CAM56789124,CAMARA WEB BRIO 300 2MPN 1080P-30FPS NEGRA,559,Perifericos,Camaras,LOGITECH,src\\main\\resources\\
+CAM34567891,CAMARA WEB BRIO 300 2MPN 1080P-30FPS BLANCA,559,Perifericos,Camaras,LOGITECH,src\\main\\resources\\
+CAM12345678,CAMARA WEB BRIO 300 2MPN 1080P-30FPS ROSA,559,Perifericos,Camaras,LOGITECH,src\\main\\resources\\
+CAM89012346,CAMARA WEB BRIO 100 HD 1080 NEGRA,349,Perifericos,Camaras,LOGITECH,src\\main\\resources\\
+CAM67890123,CAMARA WEB BRIO 100 HD 1080 BLANCO,349,Perifericos,Camaras,LOGITECH,src\\main\\resources\\
+CAM45678901,CAMARA WEB LAGUHAM KWC-500 1080P,259,Perifericos,Camaras,KLIP XTREME,src\\main\\resources\\
+CAM23456789,CAMARA WEB C270 HD720 DE VIDEO 3MP,249,Perifericos,Camaras,LOGITECH,src\\main\\resources\\
+CAM90123457,Cámara EOS Rebel SL3 de 24.1 MP sensor APS-C. Incluye lente EF-S 18-55mm,7896,Perifericos,Camaras,CANON,src\\main\\resources\\
+CAM78901236,CÁMARA EOS REBEL T100 DE 18 MP. SENSOR APS-C. INCLUYE LENTE EF-S 18-55MM.,4499,Perifericos,Camaras,CANON,src\\main\\resources\\
+CAM56789125,Cámara EOS Rebel T100 Premium Kit de 18 MP sensor APS-C. Incluye lentes EF-S 18-55MM y 75-300mm,4996,Perifericos,Camaras,CANON,src\\main\\resources\\
+GAM98765432,GAMEPAD PLAYSTATION DUALSENSE INALAMBRICO PARA PS5 NEGRO 3006392,734,Gaming,Gamepads,SONY,src\\main\\resources\\
+GAM23456789,GAMEPAD PLAYSTATION DUALSENSE INALAMBRICO PARA PS5 CAMOUFLAGE 8765053,729,Gaming,Gamepads,SONY,src\\main\\resources\\
+GAM87654321,GAMEPAD BACKBONE PLAYSTATION CONTROL PARA IPHONE CONEXION LIGHTNING COLOR BLANCO,641,Gaming,Gamepads,BACKBONE,src\\main\\resources\\
+GAM34567890,GAMEPAD BIONIK INALAMBRICO VULCAN NEGRO BNK-9046,635,Gaming,Gamepads,BIONIK,src\\main\\resources\\
+GAM76543210,GAMEPAD MICROSOFT INALAMBRICO XBOX ONE NEGRO CON USB-C 1V8-00016,620,Gaming,Gamepads,MICROSOFT,src\\main\\resources\\
+GAM54321098,GAMEPAD SONY DUALSHOCK PARA PS4 INALAMBRICO NEGRO 2DA GEN,588,Gaming,Gamepads,SONY,src\\main\\resources\\
+GAM01234567,Gamepad Alambrico Clutch Gladiate Marca Hyperx RGB Para Xbox 7D6H2AA Puerto Para Auriculaes 3.5 mm Y Cable USB-C Para Consola Xbox Series X,453,Gaming,Gamepads,HYPERX,src\\main\\resources\\
+GAM45678901,GAMEPAD INALAMBRICO LOGITECH F710 2.4GHZ CON VIBRACION 10 BOTONES,359,Gaming,Gamepads,LOGITECH,src\\main\\resources\\
+GAM89012345,GAMEPAD HYPERX CLUTCH GLADIATE ALAMBRICO PARA XBOX,359,Gaming,Gamepads,HYPERX,src\\main\\resources\\
+GAM67890123,GAMEPAD LOGITECH F310 PARA PC 10 BOTONES PROGRAMABLES 940-000110,172,Gaming,Gamepads,LOGITECH,src\\main\\resources\\
+GAM32109876,GAMEPAD DREAMGEAR SHADOW PARA PS3 Y PC ALAMBRICO USB2.0 DGPS3-3880,135,Gaming,Gamepads,DREAMGEAR,src\\main\\resources\\
+GAM78901234,GAMEPAD SONY DUALSENSE INALAMBRICO PARA PLAYSTATION 5 COLOR GALACTIC MORADO,760,Gaming,Gamepads,SONY,src\\main\\resources\\
+GAM21098765,GAMEPAD SONY DUALSENSE INALAMBRICO PARA PLAYSTATION 5 COLOR STARLIGHT AZUL,760,Gaming,Gamepads,SONY,src\\main\\resources\\
+GAM54321099,GAMEPAD SONY DUALSENSE INALAMBRICO PARA PLAYSTATION 5 COLOR COSMIC ROJO,760,Gaming,Gamepads,SONY,src\\main\\resources\\
+GAM09876543,GAMEPAD ALAMBRICO RAZER WOLVERINE V2 BLANCO PARA XBOX,802,Gaming,Gamepads,RAZER,src\\main\\resources\\
+GAM45678901,GAMEPAD SONY DUALSENSE INALAMBRICO PARA PLAYSTATION 5,766,Gaming,Gamepads,SONY,src\\main\\resources\\
+GAM12345678,Gamepad Para Playstation 5 Sony Dualsense Inalambrico Color Negro,771,Gaming,Gamepads,SONY,src\\main\\resources\\
+GAM87654322,Gamepad Wolverine Ultimate Razer Para Xbox One Con Botones Adicinales Para Un Control Total RZ06-02250100-R3U1,776,Gaming,Gamepads,RAZER,src\\main\\resources\\
+GAM23456780,Gamepad Kishi V2 Pro Razer Para Uso Con Celular Tipo Android,1203,Gaming,Gamepads,RAZER,src\\main\\resources\\
+GAM89012346,GAMEPAD MICROSOFT INALAMBRICO XBOX ELITE V2 CORE BLANCO 4IK-00006,1214,Gaming,Gamepads,MICROSOFT,src\\main\\resources\\
+GAM56789012,Gamepad Wolverine V2 Razer Chroma RGB Alambrico Para Xbox Color Blanco,1312,Gaming,Gamepads,RAZER,src\\main\\resources\\
+GAM90123456,Gamepad Wolverine V2 Razer Chroma RGB Alambrico Para Xbox Color Negro,1312,Gaming,Gamepads,RAZER,src\\main\\resources\\
+GAM34567891,GAMEPAD INALAMBRICO RAZER CAPTAIN AMERICA CON QUICKCHARGE PARA XBOX,1391,Gaming,Gamepads,RAZER,src\\main\\resources\\
+GAM78901235,Gamepad Kishi V2 Razer Para Uso Con Celular Tipo Usb-C,1505,Gaming,Gamepads,RAZER,src\\main\\resources\\
+GAM23456781,GAMEPAD INALAMBRICO RAZER WOLVERINE V2 PRO PARA PS5 CHROMA RGB,2005,Gaming,Gamepads,RAZER,src\\main\\resources\\
+CON98765432,"CONSOLA NINTENDO SWITCH LITE COLOR AMARILLO VERSION JAPON
+",1938,Gaming,Consolas,NINTENDO,src\\main\\resources\\
+CON56789123,CONSOLA NINTENDO SWITCH LITE COLOR GRIS VERSION JAPON,1938,Gaming,Consolas,NINTENDO,src\\main\\resources\\
+CON34567890,CONSOLA NINTENDO SWITCH V2 CON CONTROLES NEON ROJO Y AZUL 32GB J,2953,Gaming,Consolas,NINTENDO,src\\main\\resources\\
+CON87654321,CONSOLA PLAYSTATION 4 CON UN CONTROL 500GB NEGRO,3047,Gaming,Consolas,SONY,src\\main\\resources\\
+CON23456789,CONSOLA NINTENDO SWITCH CON CONTROLES NEON AZUL Y NEON ROJO OLED,3292,Gaming,Consolas,NINTENDO,src\\main\\resources\\
+CON65432109,CONSOLA NINTENDO SWITCH CON CONTROLES SCARLET VIOLET EDICION OLED JP,3338,Gaming,Consolas,NINTENDO,src\\main\\resources\\
+CON78901234,"CONSOLA ASUS ROG ALLY 2023 RC71L 7"" 16GB 512GB W11H INGLES",7792,Gaming,Consolas,ASUS,src\\main\\resources\\
+CON45678901,CONSOLA NINTENDO SWITCH CON CONTROLES BLANCO OLED,3344,Gaming,Consolas,NINTENDO,src\\main\\resources\\
+CON32109876,CONSOLA NINTENDO SWITCH CON CONTROLES THE LEGEND OF ZELDA DORADO JP,3422,Gaming,Consolas,NINTENDO,src\\main\\resources\\
+CON89012345,Xbox Serie X Consola 1Tb De Almacenamiento Con Control J,5365,Gaming,Consolas,MICROSOFT,src\\main\\resources\\
+CON10987654,CONSOLA PLAYSTATION 5 SLIM VERSION DIGITAL 1TB CON CONTROL,5521,Gaming,Consolas,SONY,src\\main\\resources\\
+CON54321098,CONSOLA PLAYSTATION 5 SLIM 1TB CON CONTROL DISCO BLURAY,6083,Gaming,Consolas,SONY,src\\main\\resources\\
+CON67890123,"CONSOLA VALVE STEAMDECK DE 256GB 1280 X 800 7"" IPS UK",6094,Gaming,Consolas,VALVE,src\\main\\resources\\
+CON09876543,CONSOLA PLAYSTATION 5 SLIM 1TB DISCO- CONTROL Y JUEGO SPIDER-MAN 2,6880,Gaming,Consolas,SONY,src\\main\\resources\\
+CON43210987,"CONSOLA ASUS ROG ALLY 2023 RC71L 7"" 16GB 512GB W11H INGLES RC71L-ALLY",7047,Gaming,Consolas,ASUS,src\\main\\resources\\
+CON21098765,XBOX SERIES S 512GB LATAM WHITE,3999,Gaming,Consolas,MICROSOFT,src\\main\\resources\\
+CON87654322,XBOX SERIES S 512GB LATAM WHITE,3249,Gaming,Consolas,MICROSOFT,src\\main\\resources\\
+CON65432100,XBOX SERIES S BUNDLE CONSOLA + GAME PASS 512GB SSD,3499,Gaming,Consolas,MICROSOFT,src\\main\\resources\\
+CON54321099,XBOX SERIES X 1TB SSD,5199,Gaming,Consolas,XBOX,src\\main\\resources\\
+CON87654323,PLAYSTATION 5 PS5 GOD OF WAR RAGNAROK DISK EDITION,5699,Gaming,Consolas,SONY,src\\main\\resources\\
+CON89012346,PLAYSTATION 5 MARVEL’S SPIDER-MAN 2 1TB DIGITAL EDITION,5399,Gaming,Consolas,SONY,src\\main\\resources\\
+CON23456780,XBOX SERIES X 1TB SSD 4K 120 BLU-RAY FPS 8K HDR DIABLO,6199,Gaming,Consolas,MICROSOFT,src\\main\\resources\\
+CON10987655,NINTENDO SWITCH OLED 64GB MARIO RED,3099,Gaming,Consolas,NINTENDO,src\\main\\resources\\
+CON45678902,NINTENDO SWITCH OLED 64GB SPLATOON 3,3099,Gaming,Consolas,NINTENDO,src\\main\\resources\\
+CON09876544,NINTENDO SWITCH OLED 7P 64GB WHITE,2999,Gaming,Consolas,NINTENDO,src\\main\\resources\\
+SOP78901234,MICROSOFT WINDOWS 11 HOME 64 BITS ESPAÑOL OEM - SOLO CON EQUIPO NUEVO,1010,Software,SO,MICROSOFT,src\\main\\resources\\
+SOP56789012,"MICROSOFT WINDOWS 11 HOME ESD EMPAQUE RETAIL
+",1162,Software,SO,MICROSOFT,src\\main\\resources\\
+SOP34567890,WINDOWS SERVER STANDARD 2022 64BITS ESPAÑOL DVD 16CORE P73-08338,7412,Software,SO,MICROSOFT,src\\main\\resources\\
+SOP12345678,MICROSOFT WINDOWS 11 PRO ESD 64bit EMPAQUE RETAIL,1990,Software,SO,MICROSOFT,src\\main\\resources\\
+SOP90123456,"MICROSOFT WINDOWS 11 PRO ESD 64bit VERSION VIRTUAL
+
+",1865,Software,SO,MICROSOFT,src\\main\\resources\\
+OFF98765432,"MICROSOFT OFFICE 365 PERSONAL 1 AÑO PC/MAC FORMATO ESD 1 DISPOSITIVO
+",375,Software,Office,MICROSOFT,src\\main\\resources\\
+OFF34567890,MICROSOFT OFFICE 365 FAMILIA 1 AÑO PC/MAC FORMATO ESD 6 DISPOSITIVOS,490,Software,Office,MICROSOFT,src\\main\\resources\\
+OFF56789012,OFFICE 2021 HOME AND STUDENT WORD EXCEL PPOINT ONENOTE ESD,849,Software,Office,MICROSOFT,src\\main\\resources\\
+OFF65432109,MICROSOFT OFFICE 365 EMPRESA ESTANDAR 1 AÑO PC/MAC FORMATO ESD,1245,Software,Office,MICROSOFT,src\\main\\resources\\
+OFF23456789,OFFICE 2021 HOME & BUSINESS WORD EXCEL PPOINT OUTLOOK ESD,1983,Software,Office,MICROSOFT,src\\main\\resources\\
+ANT98765432,KASPERSKY PLUS OEM 1 DISPOSITIVO 1 AÑO SOLO CON EQUIPO NUEVO,182,Software,Antivirus,KASPERSKY,src\\main\\resources\\
+ANT23456789,KASPERSKY INTERNET SECURITY PARA UN USUARIO OEM -SOLO CON EQUIPO NUEVO,182,Software,Antivirus,KASPERSKY,src\\main\\resources\\
+ANT87654321,BITDEFENDER INTERNET SECURITY 1+1 USUARIO CAJA RETAIL WINDOWS 1 AÑO,240,Software,Antivirus,BITDEFENDER,src\\main\\resources\\
+ANT34567890,BITDEFENDER ANTIVIRUS PLUS 1+1 USUARIO CAJA RETAIL PARA WINDOWS 1 AÑO,152,Software,Antivirus,BITDEFENDER,src\\main\\resources\\
+ANT56789012,ANTIVIRUS KASPERSKY PARA UN USUARIO OEM - SOLO CON EQUIPO NUEVO,104,Software,Antivirus,KASPERSKY,src\\main\\resources\\
