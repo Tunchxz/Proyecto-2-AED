@@ -1,5 +1,3 @@
-package uvg.edu.gt;
-
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -90,7 +88,46 @@ public class Login extends JFrame {
         txtpnUsuario_1.setBounds(269, 378, 119, 49);
         panel.add(txtpnUsuario_1);
 
-        
+        JButton btnNewButton = new JButton("Iniciar Sesión");
+        btnNewButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                String username = textUsuario.getText();
+                String password = new String(passwordField.getPassword());
+
+                if (username.isEmpty() || password.isEmpty()) {
+                    JOptionPane.showMessageDialog(null, "Por favor, complete todos los campos.", "Error", JOptionPane.ERROR_MESSAGE);
+                } else {
+                    boolean loginSuccess = dbManager.loginUser(username, password);
+                    if (loginSuccess) {
+                        JOptionPane.showMessageDialog(null, "Inicio de sesión exitoso.", "Éxito", JOptionPane.INFORMATION_MESSAGE);
+                        setVisible(false);
+                        Home ventanaSecundaria = new Home();
+                        ventanaSecundaria.setVisible(true);
+                    } else {
+                        JOptionPane.showMessageDialog(null, "Nombre de usuario o contraseña incorrectos.", "Error", JOptionPane.ERROR_MESSAGE);
+                    }
+                }
+            }
+        });
+        btnNewButton.setBackground(new Color(240, 240, 240));
+        btnNewButton.setFont(new Font("Arial Rounded MT Bold", Font.PLAIN, 20));
+        btnNewButton.setBounds(250, 583, 174, 61);
+        panel.add(btnNewButton);
+
+        JButton btnRegistrarse = new JButton("¿No tiene una cuenta? Registrarse");
+        btnRegistrarse.setForeground(new Color(255, 255, 255));
+        btnRegistrarse.setBackground(new Color(28, 128, 199));
+        btnRegistrarse.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Aquí puedes añadir el código para abrir la ventana de registro.
+                Register registerFrame = new Register();
+                registerFrame.setVisible(true);
+                dispose();
+            }
+        });
+        btnRegistrarse.setFont(new Font("Arial Rounded MT Bold", Font.PLAIN, 20));
+        btnRegistrarse.setBounds(77, 654, 476, 42);
+        panel.add(btnRegistrarse);
         
         // Agregar JLabel para la imagen de fondo
         JLabel lblBackground = new JLabel("");
