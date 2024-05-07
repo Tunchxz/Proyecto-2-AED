@@ -23,7 +23,6 @@ public class DBManager {
     private final Driver driver;
     private String loggedInUser;
 
-
     public DBManager(String uri, String user, String password) {
         driver = GraphDatabase.driver(uri, AuthTokens.basic(user, password));
     }
@@ -41,7 +40,7 @@ public class DBManager {
 
     public void loadProductsFromCSV(String csvFilePath) {
         try (Session session = driver.session();
-             BufferedReader br = new BufferedReader(new FileReader(csvFilePath))) {
+                BufferedReader br = new BufferedReader(new FileReader(csvFilePath))) {
             String line;
             boolean isHeader = true;
             while ((line = br.readLine()) != null) {
@@ -60,9 +59,9 @@ public class DBManager {
                     String image = values[6] + id + ".jpg";
 
                     session.run("CREATE (p:Producto {id: $id, nombre: $name, precio: $price, " +
-                                "categoria1: $category1, categoria2: $category2, marca: $brand, imagen: $image})",
-                                Map.of("id", id, "name", name, "price", price, "category1", category1, 
-                                       "category2", category2, "brand", brand, "image", image));
+                            "categoria1: $category1, categoria2: $category2, marca: $brand, imagen: $image})",
+                            Map.of("id", id, "name", name, "price", price, "category1", category1,
+                                    "category2", category2, "brand", brand, "image", image));
                 }
             }
             System.out.println("Products loaded from CSV successfully.");
@@ -86,6 +85,9 @@ public class DBManager {
         return false;
     }
 
+    public String getLoggedInUser() {
+        return loggedInUser;
+    }
 
     public static void main(String... args) {
         String dbUri = "neo4j://localhost";
@@ -99,8 +101,8 @@ public class DBManager {
 
         boolean loginSuccess = dbManager.loginUser("newuser", "password123");
         System.out.println("Login successful: " + loginSuccess);
-        
+
         // Agregar un shutdown hook para cerrar el DBManager cuando la JVM se apague
         Runtime.getRuntime().addShutdownHook(new Thread(dbManager::close));
-    } 
+    }
 }
