@@ -70,6 +70,17 @@ public class DBManager {
         }
     }
 
+    public void registerUser(String username, String password, String tipo) {
+        try (Session session = driver.session()) {
+            session.run("CREATE (u:User {username: $username, password: $password, tipo: $tipo})",
+                        Map.of("username", username, "password", password, "tipo", tipo));
+            System.out.println("User registered successfully.");
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new RuntimeException("Error registering user.");
+        }
+    }
+
     public boolean loginUser(String username, String password) {
         try (Session session = driver.session()) {
             Result result = session.run("MATCH (u:User {username: $username, password: $password}) RETURN u",
@@ -88,6 +99,8 @@ public class DBManager {
     public String getLoggedInUser() {
         return loggedInUser;
     }
+
+    
 
     public static void main(String... args) {
         String dbUri = "neo4j://localhost";
