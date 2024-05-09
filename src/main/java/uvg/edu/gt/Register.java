@@ -1,5 +1,3 @@
-package uvg.edu.gt;
-
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -46,12 +44,12 @@ public class Register extends JFrame {
      * Create the frame.
      */
     public Register() {
-        final String dbUri = "neo4j://localhost";
+    	final String dbUri = "neo4j://localhost";
         final String dbUser = "neo4j";
         final String dbPassword = "12345678";
-
+        
         dbManager = new DBManager(dbUri, dbUser, dbPassword);
-
+        
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(0, 0, 645, 760);
         contentPane = new JPanel();
@@ -100,7 +98,7 @@ public class Register extends JFrame {
 
         JComboBox<String> comboBoxTipo = new JComboBox<>();
         comboBoxTipo.setFont(new Font("Consolas", Font.BOLD, 25));
-        comboBoxTipo.setModel(new DefaultComboBoxModel<>(new String[] { "", "Mayorista", "Regular", "Novato" }));
+        comboBoxTipo.setModel(new DefaultComboBoxModel<>(new String[] {"", "Mayorista", "Regular", "Novato"}));
         comboBoxTipo.setBounds(295, 484, 262, 44);
         panel.add(comboBoxTipo);
 
@@ -110,15 +108,38 @@ public class Register extends JFrame {
         btnRegistrarse.setBounds(221, 580, 174, 61);
         panel.add(btnRegistrarse);
 
-        // Agregar JLabel para la imagen de fondo
+        btnRegistrarse.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String username = textCrearUsuario.getText();
+                String password = textCrearContra.getText();
+                String tipo = (String) comboBoxTipo.getSelectedItem();
+
+                if (username.isEmpty() || password.isEmpty() || tipo.isEmpty()) {
+                    JOptionPane.showMessageDialog(null, "Por favor, complete todos los campos.", "Error", JOptionPane.ERROR_MESSAGE);
+                } else {
+                    try {
+                        dbManager.registerUser(username, password, tipo);
+                        JOptionPane.showMessageDialog(null, "Usuario registrado exitosamente.", "Éxito", JOptionPane.INFORMATION_MESSAGE);
+                        setVisible(false);
+                    	Login ventanaSecundaria = new Login();
+                        ventanaSecundaria.setVisible(true);
+                    } catch (RuntimeException ex) {
+                        JOptionPane.showMessageDialog(null, "Error al registrar usuario.", "Error", JOptionPane.ERROR_MESSAGE);
+                    }
+                }
+            }
+        });
+        
+     // Agregar JLabel para la imagen de fondo
         JLabel lblBackground = new JLabel("");
         lblBackground.setIcon(new ImageIcon("src\\main\\resources\\register.png"));
         lblBackground.setBounds(0, 0, 645, 720);
         panel.add(lblBackground);
-
-        // Centrar la ventana en la pantalla
+        
+     // Centrar la ventana en la pantalla
         setLocationRelativeTo(null);
-        // Evitar redimensionar la ventana
-        setResizable(false);
+     // Evitar redimensionar la ventana
+        setResizable(false); 
     }
 }
