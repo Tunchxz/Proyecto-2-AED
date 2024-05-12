@@ -70,6 +70,37 @@ public class DBManager {
         }
     }
 
+    public List<Map<String, Object>> getAllProducts() {
+        List<Map<String, Object>> products = new ArrayList<>();
+        try (Session session = driver.session()) {
+            Result result = session.run("MATCH (p:Producto) RETURN p");
+            while (result.hasNext()) {
+                org.neo4j.driver.Record record = result.next();
+                Map<String, Object> product = record.get("p").asMap();
+                products.add(product);
+            }
+        }
+        return products;
+    }
+
+    public List<Map<String, Object>> searchProducts(String query) {
+        List<Map<String, Object>> products = new ArrayList<>();
+        try (Session session = driver.session()) {
+            Result result = session.run(
+                "MATCH (p:Producto) " +
+                "WHERE p.nombre CONTAINS $query OR p.marca CONTAINS $query " +
+                "RETURN p",
+                Values.parameters("query", query)
+            );
+            while (result.hasNext()) {
+                org.neo4j.driver.Record record = result.next();
+                Map<String, Object> product = record.get("p").asMap();
+                products.add(product);
+            }
+        }
+        return products;
+    }
+
     public void registerUser(String username, String password, String tipo) {
         try (Session session = driver.session()) {
             session.run("CREATE (u:User {username: $username, password: $password, tipo: $tipo})",

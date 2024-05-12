@@ -79,40 +79,6 @@ public class Home extends JFrame {
         nextButton.setForeground(new Color(255, 255, 255));
         bottomPanel.add(nextButton);
 
-        currentPage = 0;
-        productList = dbManager.getAllProducts();
-        updateItems(itemsPanel);
-
-        searchButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String query = searchField.getText().trim();
-                productList = dbManager.searchProducts(query);
-                currentPage = 0;
-                updateItems(itemsPanel);
-            }
-        });
-
-        prevButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (currentPage > 0) {
-                    currentPage--;
-                    updateItems(itemsPanel);
-                }
-            }
-        });
-
-        nextButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if ((currentPage + 1) * 9 < productList.size()) {
-                    currentPage++;
-                    updateItems(itemsPanel);
-                }
-            }
-        });
-        
         
      // Centrar la ventana en la pantalla
         setLocationRelativeTo(null);
