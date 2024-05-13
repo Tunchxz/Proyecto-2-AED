@@ -15,7 +15,6 @@ import java.util.Map;
 public class Home extends JFrame {
 
     private JPanel contentPane;
-    private Item[][] items;
     private List<Map<String, Object>> productList;
     private int currentPage;
     private JTextField searchField;
@@ -119,43 +118,5 @@ public class Home extends JFrame {
         setLocationRelativeTo(null);
      // Evitar redimensionar la ventana
         setResizable(false); 
-    }
-
-    private void updateItems(JPanel itemsPanel) {
-        itemsPanel.removeAll();
-        int startIndex = currentPage * 9;
-        int endIndex = Math.min((currentPage + 1) * 9, productList.size());
-        items = new Item[3][3];
-        for (int i = startIndex; i < endIndex; i++) {
-            int row = (i - startIndex) / 3;
-            int col = (i - startIndex) % 3;
-            Map<String, Object> product = productList.get(i);
-            String id = product.get("id").toString();
-            String nombre = product.get("nombre").toString();
-            double precio = Double.parseDouble(product.get("precio").toString());
-            String categoria1 = product.get("categoria1").toString();
-            String categoria2 = product.get("categoria2").toString();
-            String marca = product.get("marca").toString();
-            String imagen = product.get("imagen").toString();
-            
-            Item item = new Item(id, nombre, precio, categoria1, categoria2, marca, imagen);
-            item.setPreferredSize(new Dimension(300, 200)); // Establece el tamaño preferido de cada Item
-            
-            // Agregamos el MouseListener al Item
-            item.addMouseListener(new MouseAdapter() {
-                @Override
-                public void mouseClicked(MouseEvent e) {
-                    // Aquí abrimos la vista de detalles del producto
-                    List<Map<String, Object>> relatedProducts = List.of(product); // Ejemplo de productos relacionados
-                    Product productFrame = new Product(product, relatedProducts);
-                    productFrame.setVisible(true);
-                }
-            });
-            
-            items[row][col] = item;
-            itemsPanel.add(items[row][col]);
-        }
-        itemsPanel.revalidate();
-        itemsPanel.repaint();
     }
 }
