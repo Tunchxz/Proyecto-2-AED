@@ -87,11 +87,10 @@ public class DBManager {
         List<Map<String, Object>> products = new ArrayList<>();
         try (Session session = driver.session()) {
             Result result = session.run(
-                "MATCH (p:Producto) " +
-                "WHERE p.nombre CONTAINS $query OR p.marca CONTAINS $query " +
-                "RETURN p",
-                Values.parameters("query", query)
-            );
+                    "MATCH (p:Producto) " +
+                            "WHERE p.nombre CONTAINS $query OR p.marca CONTAINS $query " +
+                            "RETURN p",
+                    Values.parameters("query", query));
             while (result.hasNext()) {
                 org.neo4j.driver.Record record = result.next();
                 Map<String, Object> product = record.get("p").asMap();
@@ -104,7 +103,7 @@ public class DBManager {
     public void registerUser(String username, String password, String tipo) {
         try (Session session = driver.session()) {
             session.run("CREATE (u:User {username: $username, password: $password, tipo: $tipo})",
-                        Map.of("username", username, "password", password, "tipo", tipo));
+                    Map.of("username", username, "password", password, "tipo", tipo));
             System.out.println("User registered successfully.");
         } catch (Exception e) {
             e.printStackTrace();
@@ -127,11 +126,25 @@ public class DBManager {
         return false;
     }
 
+    public List<Map<String, Object>> getRecommendedProducts(String username) {
+        List<Map<String, Object>> recommendedProducts = new ArrayList<>();
+        try (Session session = driver.session()) {
+            String query = "MATCH (u1:User {username: $username})-[:SIMILAR]-(u2:User)-[:COMPRA]->(p:Producto) " +
+                    "WHERE NOT (u1)-[:COMPRA]->(p) " +
+                    "RETURN DISTINCT p";
+            Result result = session.run(query, Map.of("username", username));
+            while (result.hasNext()) {
+                org.neo4j.driver.Record record = result.next();
+                Map<String, Object> product = record.get("p").asMap();
+                recommendedProducts.add(product);
+            }
+        }
+        return recommendedProducts;
+    }
+
     public String getLoggedInUser() {
         return loggedInUser;
     }
-
-    
 
     public static void main(String... args) {
         String dbUri = "neo4j://localhost";
