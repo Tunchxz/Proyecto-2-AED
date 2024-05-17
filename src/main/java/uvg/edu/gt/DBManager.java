@@ -126,6 +126,58 @@ public class DBManager {
         return false;
     }
 
+    public boolean realizarCompra(Map<String, Object> productDetails) {
+        System.out.println("ID del usuario logueado: " + loggedInUser);
+        if (loggedInUser != null) { // Verificar si hay un usuario logueado
+            try (Session session = driver.session()) {
+                // Obtener el ID del producto
+                String productId = productDetails.get("id").toString();
+    
+                // Crear la relación de compra en la base de datos
+                session.run("MATCH (u:User {username: $username}), (p:Producto {id: $productId}) " +
+                                "CREATE (u)-[:COMPRA]->(p)",
+                        Map.of("username", loggedInUser, "productId", productId));
+    
+                // Obtener el tipo de usuario logueado
+                String userType = session.run("MATCH (u:User {username: $username}) RETURN u.tipo AS tipo",
+                        Map.of("username", loggedInUser)).single().get("tipo").asString();
+    
+                // Crear relaciones de similitud según las reglas especificadas
+                String similarityQuery =
+                        "MATCH (u1:User {username: $username})-[:COMPRA]->(p:Producto {id: $productId}), (u2:User)-[:COMPRA]->(p) " +
+                        "WHERE u1 <> u2 " +
+                        "AND (" +
+                        "  (u1.tipo = 'Mayorista' AND u2.tipo IN ['Regular', 'Mayorista']) " +
+                        "  OR (u1.tipo = 'Regular' AND u2.tipo IN ['Mayorista', 'Novato', 'Regular']) " +
+                        "  OR (u1.tipo = 'Novato' AND u2.tipo IN ['Regular', 'Novato'])" +
+                        ") " +
+                        "MERGE (u1)-[:SIMILAR]->(u2) " +
+                        "MERGE (u2)-[:SIMILAR]->(u1)";
+    
+                session.run(similarityQuery, Map.of("username", loggedInUser, "productId", productId));
+    
+                // Crear relaciones de RECOMENDACION para productos no comprados por cualquier usuario
+                String recommendationQuery =
+                        "MATCH (u1:User)-[:SIMILAR]-(u2:User)-[:COMPRA]->(p:Producto) " +
+                        "WHERE NOT (u1)-[:COMPRA]->(p) " +
+                        "AND (" +
+                        "  (u1.tipo = 'Mayorista' AND u2.tipo = 'Regular') " +
+                        "  OR (u1.tipo = 'Regular' AND u2.tipo IN ['Mayorista', 'Novato']) " +
+                        "  OR (u1.tipo = 'Novato' AND u2.tipo = 'Regular')" +
+                        "  OR (u1.tipo = u2.tipo) " + // Similitud entre usuarios del mismo tipo de comprador
+                        ") " +
+                        "MERGE (u1)<-[:RECOMENDACION]-(p)";
+
+                session.run(recommendationQuery, Map.of("username", loggedInUser));
+                
+                return true;
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return false;
+    }
+
     public List<Map<String, Object>> getRecommendedProducts(String username) {
         List<Map<String, Object>> recommendedProducts = new ArrayList<>();
         try (Session session = driver.session()) {
