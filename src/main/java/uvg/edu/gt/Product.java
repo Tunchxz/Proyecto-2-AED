@@ -50,6 +50,21 @@ public class Product extends JFrame {
             this.dispose();
         });
 
+        JButton buyButton = new JButton("Comprar");
+        buyButton.setBackground(new Color(0, 112, 192));
+        buyButton.setForeground(new Color(255, 255, 255));
+        buyButton.setFont(new Font("Tahoma", Font.BOLD, 11));
+        topPanel.add(buyButton, BorderLayout.EAST);
+        buyButton.addActionListener(e -> {
+            int confirm = JOptionPane.showConfirmDialog(this,
+                    "¿Estás seguro de que deseas comprar este producto?",
+                    "Confirmar compra", JOptionPane.YES_NO_OPTION);
+            if (confirm == JOptionPane.YES_OPTION) {
+                // Realizar la acción de compra
+                realizarCompra(productDetails);
+            }
+        });
+
         JPanel productPanel = new JPanel();
         contentPane.add(productPanel, BorderLayout.CENTER);
         productPanel.setLayout(new BoxLayout(productPanel, BoxLayout.X_AXIS));
@@ -84,6 +99,32 @@ public class Product extends JFrame {
         brandLabel.setText("Marca: " + productDetails.get("marca"));
         setImage(productDetails.get("imagen").toString());
 
+        // Obtain and display recommended products
+        List<Map<String, Object>> recommendedProducts = dbManager.getRecommendedProducts(dbManager.getLoggedInUser());
+        String[] recommendedColumnNames = {"Nombre", "Precio", "Marca"};
+        Object[][] recommendedData = new Object[recommendedProducts.size()][3];
+        for (int i = 0; i < recommendedProducts.size(); i++) {
+            recommendedData[i][0] = recommendedProducts.get(i).get("nombre");
+            recommendedData[i][1] = recommendedProducts.get(i).get("precio");
+            recommendedData[i][2] = recommendedProducts.get(i).get("marca");
+        }
+
+        recommendedProductsTable = new JTable(recommendedData, recommendedColumnNames);
+        JScrollPane recommendedScrollPane = new JScrollPane(recommendedProductsTable);
+        recommendedScrollPane.setPreferredSize(new Dimension(100, 100));
+
+        // Panel para el título y la tabla
+        JPanel recommendedPanel = new JPanel(new BorderLayout());
+        JLabel recommendedLabel = new JLabel("Productos Recomendados");
+        recommendedLabel.setForeground(new Color(0, 112, 192));
+        recommendedLabel.setBackground(new Color(0, 112, 192));
+        recommendedLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        recommendedLabel.setFont(new Font("Tahoma", Font.BOLD, 16));
+        recommendedPanel.add(recommendedLabel, BorderLayout.NORTH);
+        recommendedPanel.add(recommendedScrollPane, BorderLayout.CENTER);
+
+        contentPane.add(recommendedPanel, BorderLayout.SOUTH);
+
         // Centrar la ventana en la pantalla
         setLocationRelativeTo(null);
         // Evitar redimensionar la ventana
@@ -98,6 +139,17 @@ public class Product extends JFrame {
             imageLabel.setIcon(new ImageIcon(image));
         } else {
             imageLabel.setIcon(null);
+        }
+    }
+
+    private void realizarCompra(Map<String, Object> productDetails) {
+        // Realizar la compra en la base de datos
+        boolean compraExitosa = dbManager.realizarCompra(productDetails);
+
+        if (compraExitosa) {
+            JOptionPane.showMessageDialog(this, "¡Compra realizada con éxito!");
+        } else {
+            JOptionPane.showMessageDialog(this, "Hubo un problema al realizar la compra. Por favor, inténtalo de nuevo.");
         }
     }
 }
