@@ -5,11 +5,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Clase Home que representa la ventana principal de la aplicación.
+ * Extiende de JFrame.
+ */
 public class Home extends JFrame {
 
     private JPanel contentPane;
@@ -19,6 +21,10 @@ public class Home extends JFrame {
     private JTextField searchField;
     private DBManager dbManager;
     
+    /**
+     * Método principal para ejecutar la aplicación.
+     * @param args Argumentos de línea de comandos.
+     */
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -32,6 +38,10 @@ public class Home extends JFrame {
         });
     }
 
+    /**
+     * Constructor de la clase Home.
+     * Configura la ventana y sus componentes.
+     */
     public Home() {
         String dbUri = "neo4j://localhost";
         String dbUser = "neo4j";
@@ -82,6 +92,9 @@ public class Home extends JFrame {
         productList = dbManager.getAllProducts();
         updateItems(itemsPanel);
 
+        /**
+         * Añade un ActionListener al botón "Buscar" que maneja el evento de búsqueda de productos.
+         */
         searchButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -92,6 +105,9 @@ public class Home extends JFrame {
             }
         });
 
+        /**
+         * Añade un ActionListener al botón "<<" que maneja el evento de retroceder página.
+         */
         prevButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -102,6 +118,9 @@ public class Home extends JFrame {
             }
         });
 
+        /**
+         * Añade un ActionListener al botón ">>" que maneja el evento de avanzar página.
+         */
         nextButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -112,13 +131,17 @@ public class Home extends JFrame {
             }
         });
         
-        
-     // Centrar la ventana en la pantalla
+        // Centrar la ventana en la pantalla
         setLocationRelativeTo(null);
-     // Evitar redimensionar la ventana
+        
+        // Evitar redimensionar la ventana
         setResizable(false); 
     }
 
+    /**
+     * Actualiza los elementos mostrados en el panel de productos.
+     * @param itemsPanel Panel donde se muestran los productos.
+     */
     private void updateItems(JPanel itemsPanel) {
         itemsPanel.removeAll();
         int startIndex = currentPage * 9;
@@ -139,7 +162,7 @@ public class Home extends JFrame {
             Item item = new Item(id, nombre, precio, categoria1, categoria2, marca, imagen);
             item.setPreferredSize(new Dimension(300, 200)); // Establece el tamaño preferido de cada Item
             
-            // Agregamos el MouseListener al Item
+            // Agrega el MouseListener al Item
             item.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {
