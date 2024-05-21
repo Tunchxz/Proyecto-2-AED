@@ -4,6 +4,9 @@ import java.awt.*;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Clase Product que representa la ventana de detalle de un producto en una aplicación de e-commerce.
+ */
 public class Product extends JFrame {
     private JPanel contentPane;
     private JTextField searchField;
@@ -16,6 +19,12 @@ public class Product extends JFrame {
     private JTable recommendedProductsTable;
     private DBManager dbManager;
 
+    /**
+     * Constructor de la clase Product.
+     *
+     * @param productDetails   Detalles del producto actual.
+     * @param relatedProducts  Productos relacionados con el producto actual.
+     */
     public Product(Map<String, Object> productDetails, List<Map<String, Object>> relatedProducts) {
         String dbUri = "neo4j://localhost";
         String dbUser = "neo4j";
@@ -89,7 +98,7 @@ public class Product extends JFrame {
         brandLabel = new JLabel();
         infoPanel.add(brandLabel);
 
-        // Set product details
+        // Establecer detalles del producto
         nameLabel.setText("Nombre: " + productDetails.get("nombre"));
         priceLabel.setText("Precio: " + productDetails.get("precio"));
         category1Label.setText("Categoría 1: " + productDetails.get("categoria1"));
@@ -97,7 +106,7 @@ public class Product extends JFrame {
         brandLabel.setText("Marca: " + productDetails.get("marca"));
         setImage(productDetails.get("imagen").toString());
 
-        // Obtain and display recommended products
+        // Obtener y mostrar productos recomendados
         List<Map<String, Object>> recommendedProducts = dbManager.getRecommendedProducts(dbManager.getLoggedInUser());
         String[] recommendedColumnNames = {"Nombre", "Precio", "Marca"};
         Object[][] recommendedData = new Object[recommendedProducts.size()][3];
@@ -129,10 +138,15 @@ public class Product extends JFrame {
         setResizable(false);
     }
 
+    /**
+     * Establece la imagen del producto en el JLabel correspondiente.
+     *
+     * @param imagePath Ruta de la imagen del producto.
+     */
     private void setImage(String imagePath) {
         if (imagePath != null && !imagePath.isEmpty()) {
             ImageIcon imageIcon = new ImageIcon(imagePath);
-            // Scale the image to fit the label
+            // Escalar la imagen para ajustarla al JLabel
             Image image = imageIcon.getImage().getScaledInstance(400, 400, Image.SCALE_SMOOTH);
             imageLabel.setIcon(new ImageIcon(image));
         } else {
@@ -140,6 +154,11 @@ public class Product extends JFrame {
         }
     }
 
+    /**
+     * Realiza la compra del producto utilizando el DBManager.
+     *
+     * @param productDetails Detalles del producto a comprar.
+     */
     private void realizarCompra(Map<String, Object> productDetails) {
         // Realizar la compra en la base de datos
         boolean compraExitosa = dbManager.realizarCompra(productDetails);
