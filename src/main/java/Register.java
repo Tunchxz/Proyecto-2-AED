@@ -16,6 +16,10 @@ import javax.swing.UIManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * Clase Register que representa una ventana de registro de usuario.
+ * Extiende de JFrame.
+ */
 public class Register extends JFrame {
 
     private static final long serialVersionUID = 1L;
@@ -25,7 +29,8 @@ public class Register extends JFrame {
     private DBManager dbManager;
 
     /**
-     * Launch the application.
+     * Método principal para ejecutar la aplicación.
+     * @param args Argumentos de línea de comandos.
      */
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {
@@ -41,10 +46,11 @@ public class Register extends JFrame {
     }
 
     /**
-     * Create the frame.
+     * Constructor de la clase Register.
+     * Configura la ventana y sus componentes.
      */
     public Register() {
-    	final String dbUri = "neo4j://localhost";
+        final String dbUri = "neo4j://localhost";
         final String dbUser = "neo4j";
         final String dbPassword = "12345678";
         
@@ -108,6 +114,9 @@ public class Register extends JFrame {
         btnRegistrarse.setBounds(221, 580, 174, 61);
         panel.add(btnRegistrarse);
 
+        /**
+         * Añade un ActionListener al botón "Registrarse" que maneja el evento de registro de usuario.
+         */
         btnRegistrarse.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -122,7 +131,7 @@ public class Register extends JFrame {
                         dbManager.registerUser(username, password, tipo);
                         JOptionPane.showMessageDialog(null, "Usuario registrado exitosamente.", "Éxito", JOptionPane.INFORMATION_MESSAGE);
                         setVisible(false);
-                    	Login ventanaSecundaria = new Login();
+                        Login ventanaSecundaria = new Login();
                         ventanaSecundaria.setVisible(true);
                     } catch (RuntimeException ex) {
                         JOptionPane.showMessageDialog(null, "Error al registrar usuario.", "Error", JOptionPane.ERROR_MESSAGE);
@@ -131,15 +140,16 @@ public class Register extends JFrame {
             }
         });
         
-     // Agregar JLabel para la imagen de fondo
+        // Agregar JLabel para la imagen de fondo
         JLabel lblBackground = new JLabel("");
         lblBackground.setIcon(new ImageIcon("src\\main\\resources\\register.png"));
         lblBackground.setBounds(0, 0, 645, 720);
         panel.add(lblBackground);
         
-     // Centrar la ventana en la pantalla
+        // Centrar la ventana en la pantalla
         setLocationRelativeTo(null);
-     // Evitar redimensionar la ventana
+        
+        // Evitar redimensionar la ventana
         setResizable(false); 
     }
 }
