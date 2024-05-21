@@ -12,8 +12,10 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import javax.swing.UIManager;
 
+/**
+ * Clase Login que representa la ventana de inicio de sesión.
+ */
 public class Login extends JFrame {
 
     private static final long serialVersionUID = 1L;
@@ -23,7 +25,9 @@ public class Login extends JFrame {
     private DBManager dbManager;
 
     /**
-     * Launch the application.
+     * Método principal para lanzar la aplicación.
+     *
+     * @param args Argumentos de la línea de comandos
      */
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {
@@ -39,7 +43,7 @@ public class Login extends JFrame {
     }
 
     /**
-     * Create the frame.
+     * Constructor para crear el marco de inicio de sesión.
      */
     public Login() {
         String dbUri = "neo4j://localhost";
@@ -95,16 +99,19 @@ public class Login extends JFrame {
                 String password = new String(passwordField.getPassword());
 
                 if (username.isEmpty() || password.isEmpty()) {
-                    JOptionPane.showMessageDialog(null, "Por favor, complete todos los campos.", "Error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null, "Por favor, complete todos los campos.", "Error",
+                            JOptionPane.ERROR_MESSAGE);
                 } else {
                     boolean loginSuccess = dbManager.loginUser(username, password);
                     if (loginSuccess) {
-                        JOptionPane.showMessageDialog(null, "Inicio de sesión exitoso.", "Éxito", JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(null, "Inicio de sesión exitoso.", "Éxito",
+                                JOptionPane.INFORMATION_MESSAGE);
                         setVisible(false);
                         Home ventanaSecundaria = new Home();
                         ventanaSecundaria.setVisible(true);
                     } else {
-                        JOptionPane.showMessageDialog(null, "Nombre de usuario o contraseña incorrectos.", "Error", JOptionPane.ERROR_MESSAGE);
+                        JOptionPane.showMessageDialog(null, "Nombre de usuario o contraseña incorrectos.", "Error",
+                                JOptionPane.ERROR_MESSAGE);
                     }
                 }
             }
@@ -128,7 +135,7 @@ public class Login extends JFrame {
         btnRegistrarse.setFont(new Font("Arial Rounded MT Bold", Font.PLAIN, 20));
         btnRegistrarse.setBounds(77, 654, 476, 42);
         panel.add(btnRegistrarse);
-        
+
         // Agregar JLabel para la imagen de fondo
         JLabel lblBackground = new JLabel("");
         lblBackground.setIcon(new ImageIcon("src\\main\\resources\\fondo.png"));
@@ -138,6 +145,6 @@ public class Login extends JFrame {
         // Centrar la ventana en la pantalla
         setLocationRelativeTo(null);
         // Evitar redimensionar la ventana
-        setResizable(false); 
+        setResizable(false);
     }
 }
