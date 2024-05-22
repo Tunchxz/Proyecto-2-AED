@@ -1,12 +1,21 @@
 import java.awt.EventQueue;
 import java.util.Scanner;
 
+/**
+ * Clase principal MainApp que inicia la aplicación de e-commerce.
+ */
 public class MainApp {
 
+    /**
+     * Método principal que inicia la aplicación.
+     *
+     * @param args Argumentos de línea de comandos.
+     */
     public static void main(String[] args) {
 
-    	Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
+        // Preguntar al usuario si es la primera vez que ejecuta el programa
         System.out.println("¿Es primera vez que ejecuta el Programa?");
         System.out.println("¿Desea cargar todos los datos a la base de datos? (s/n)");
         String respuesta = scanner.nextLine();
