@@ -31,7 +31,7 @@ public class DBManager {
      * @param user     Nombre de usuario para la autenticación
      * @param password Contraseña para la autenticación
      */
-    private DBManager(String uri, String user, String password) {
+    public DBManager(String uri, String user, String password) {
         driver = GraphDatabase.driver(uri, AuthTokens.basic(user, password));
     }
 
