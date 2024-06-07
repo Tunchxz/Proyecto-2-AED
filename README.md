@@ -1,12 +1,13 @@
-Dulce Rebeca Ambrosio Jimenez - 231143
-Daniel Alejandro Chet Delgado - 231177
-Javier Alexander Linares Chang - 231135
-Cristian Sebastian Túnchez Castellanos - 231359
-
-# Mi Aplicación
+# Proyecto 2 (KeepBuying)
 
 ## Descripción
 Este proyecto es una aplicación Java que utiliza una base de datos Neo4j para almacenar y gestionar datos. La aplicación proporciona funcionalidades como inicio de sesión, registro de usuarios, visualización y compra de productos, entre otras.
+
+## Colaboradores
+Dulce Ambrosio (231143)  
+Daniel Chet (231177)  
+Javier Linares (231135)  
+Cristian Túnchez (231359)
 
 ## Ejecución del Programa
 Para ejecutar la aplicación, siga estos pasos:
